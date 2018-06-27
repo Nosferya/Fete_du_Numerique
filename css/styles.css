@@ -1,1 +1,56 @@
+html,body {
+     margin: 0;
+     padding: 0;
+   }
 
+  /*partie parallax */
+   div p {
+     margin: auto;
+     text-align: center;
+     font-family: sans-serif;
+     width: 50%;
+   }
+   .parallax {
+     width: 100%;
+     min-height: 400px;
+     background: transparent;
+   }
+
+/*partie sticky social bar */
+
+.icon-bar {
+  position: fixed;
+  right:0%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 12px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.instagram{
+  background: #fe6242;
+  color: white;
+}
