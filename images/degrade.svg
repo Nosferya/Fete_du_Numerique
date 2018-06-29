@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1280px"
+	 height="723px" viewBox="0 0 1280 723" enable-background="new 0 0 1280 723" xml:space="preserve">
+<g id="design">
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="1006.4268" y1="641.082" x2="282.3026" y2="16.0036">
+		<stop  offset="0" style="stop-color:#6D2AF1"/>
+		<stop  offset="0.0626" style="stop-color:#6435ED"/>
+		<stop  offset="0.3741" style="stop-color:#3969DC"/>
+		<stop  offset="0.6454" style="stop-color:#1A8FCF"/>
+		<stop  offset="0.8631" style="stop-color:#07A6C8"/>
+		<stop  offset="1" style="stop-color:#00AEC5"/>
+	</linearGradient>
+	<path fill="url(#SVGID_1_)" d="M1280,0H0v649.552c374,79.655,851,95.002,1280-102.547V0z"/>
+</g>
+<g id="écran" display="none">
+	
+		<rect x="261" y="1756" display="inline" fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" width="1517" height="3333"/>
+</g>
+<g id="Layer_1" display="none">
+	<rect x="902.5" y="1772.5" display="inline" fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" width="43" height="38"/>
+	<rect x="902.5" y="1817.5" display="inline" fill="#FFFFFF" stroke="#FFFFFF" stroke-miterlimit="10" width="43" height="11"/>
+	
+		<text transform="matrix(0.85 0 0 1 953.8906 1805.6641)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="30.1945">Fête du Numérique</text>
+	
+		<text transform="matrix(0.85 0 0 1 956.418 1827.1973)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="13.8171">Charleville-Mézières</text>
+	
+		<text transform="matrix(0.85 0 0 1 1136.3682 1828.1738)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="13.8171">2019</text>
+	<rect x="850" y="1845" display="inline" fill="#FFFFFF" width="343" height="3"/>
+	<rect x="866" y="1853" display="inline" fill="#FFFFFF" width="103" height="2"/>
+	<rect x="986" y="1853" display="inline" fill="#FFFFFF" width="65" height="2"/>
+	<rect x="1074" y="1853" display="inline" fill="#FFFFFF" width="102" height="2"/>
+</g>
+</svg>

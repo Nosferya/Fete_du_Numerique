@@ -1,27 +1,188 @@
-html,body {
-     margin: 0;
-     padding: 0;
-     font-family: 'Raleway', sans-serif;
-    line-height: 20px;
-   }
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  line-height: 20px;
+}
+/*       ****************************
+         *          HEADER          *
+         ****************************
 
-  /*partie parallax */
-   div p {
-     margin: auto;
-     text-align: center;
-     width: 50%;
-   }
-   .parallax {
-     width: 100%;
-     min-height: 400px;
-     background: transparent;
-   }
+*/
 
-/*partie sticky social bar */
+header {
+  position:relative;
+  max-width: 100%;
+  height: 150px;
+  background-color: #4473DB;
+  font-size: 25px;
+  padding-top:20px;
+}
+
+
+header a {
+  color: #f1f1f1;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #121111;
+}
+
+/*---------------------------BOUTON------------------------*/
+
+ header span{
+  background-color: #4473DB;
+  cursor: pointer;
+  position : absolute;
+  cursor: pointer;
+  margin-top: 1%;
+  margin-left:5%;
+
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #f1f1f1;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+/*<---------------------FIN BOUTON------------------------*/
+
+/*<-------------------DEBUT menu déroulant--------------------->*/
+
+.sidenav {
+  height: 100%;
+  width: 0%;
+  position: fixed;
+  z-index: 1;
+  top: 25%;
+  left: 0%;
+  background-color: rgba(68,115,219,.84);
+  overflow-x: hidden;
+  /* transition: 0.5s; */
+  padding-top: 25px;
+  }
+
+
+.animation-left{
+animation-name:  slideleft;
+animation-duration: 1s;
+animation-fill-mode: forwards;
+}
+.animation-right{
+animation-name:  slideright;
+animation-duration: 1s;
+animation-fill-mode: forwards;
+}
+
+@keyframes slideleft{
+  100% {width: 20%;}
+}
+
+@keyframes slideright{
+  0%   {width:20%;}
+  100% {width: 0%;}
+
+}
+
+.sidenav a {
+  display: block;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #f1f1f1;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #121111;
+}
+
+@media screen and (max-height: 250px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+/*<-------------------FIN menu déroulant--------------------->*/
+
+
+/*<-------------------DEBUT nav programme / logo / inscrire / compte--------------------->*/
+
+.nav{
+  width : 100%;
+}
+
+.nav a{
+  float: left;
+  text-align: center;
+  padding: 1% 16%;
+  text-decoration: none;
+}
+/*<-------------------FIN nav programme / logo / inscrire / compte--------------------->*/
+
+/* ----------- DEBUT compte utilisateur---------------------->*/
+
+.compte{
+  float:right;
+}
+
+.compte a{
+  padding :20px;
+}
+/*       ****************************
+         *        FIN HEADER        *
+         ****************************
+
+*/
+/* Design degrade */
+
+.degradecourbe{
+  background: url(../images/degrade.svg) no-repeat ;
+  z-index: 1;
+  height: 500px;
+  width: 1200px;
+}
+
+
+/*       ****************************
+         *      PARTIE PARALLAX     *
+         ****************************
+
+*/
+
+.parallax {
+
+  width: 100%;
+  min-height: 400px;
+  background: transparent;
+}
+
+/*       ****************************
+         * PARTIE STICKY SOCIAL BAR *
+         ****************************
+
+*/
 
 .icon-bar {
   position: fixed;
-  right:0%;
+  right: 0%;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -31,14 +192,14 @@ html,body {
 .icon-bar a {
   display: block;
   text-align: center;
-  padding: 12px;
+  padding: 11px;
   transition: all 0.3s ease;
   color: white;
   font-size: 20px;
 }
 
 .icon-bar a:hover {
-    background-color: #000;
+  background-color: #000;
 }
 
 .facebook {
@@ -51,7 +212,210 @@ html,body {
   color: white;
 }
 
-.instagram{
+.instagram {
   background: #fe6242;
   color: white;
+}
+
+/*
+           *********************************************
+           * PARTIE GOOGLE MAP ET TEXTE PAGE D'ACCUEIL *
+           *********************************************
+ */
+
+
+.mapaccueil {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.sct3txt, .googlemap {
+  width: 43%;
+}
+
+div p {
+  text-align: justify;
+}
+
+h3 {
+  text-align: center;
+}
+
+.googlemap iframe {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/*            ************************
+              *    PARTIE FOOTER     *
+              ************************
+ */
+
+.footer-distributed {
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+  margin-top: 80px;
+}
+
+.footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* ------------------Footer left-------------------- */
+
+.footer-distributed .footer-left {
+  width: 40%;
+}
+
+/* -----------------The company logo------------------ */
+
+footer img {
+  margin-left: 40%;
+}
+
+/* --------------------Footer links----------------- */
+
+.footer-distributed .footer-links {
+  color: #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+  color: #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* -------------------Footer Center------------------- */
+
+.footer-distributed .footer-center {
+  width: 35%;
+}
+
+.footer-distributed .footer-center i {
+  background-color: #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+  color: #5383d3;
+  text-decoration: none;
+  ;
+}
+
+/* ------------------Footer Right----------------- */
+
+.footer-distributed .footer-right {
+  width: 20%;
+}
+
+.footer-distributed .footer-company-about {
+  line-height: 20px;
+  color: #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+  display: block;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+  margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+/* -------------partie media queries responsive------------- */
+
+@media screen and (max-width: 800px) {
+  .footer-distributed {
+    font: bold 14px sans-serif;
+  }
+  .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .footer-distributed .footer-center i {
+    margin-left: 0;
+  }
+  .mapaccueil {
+    flex-direction: column;
+    align-items: center;
+  }
+  .sct3txt, .googlemap {
+    width: 80%;
+  }
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 6px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
 }
