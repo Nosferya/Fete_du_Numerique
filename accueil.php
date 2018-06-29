@@ -18,6 +18,7 @@
 
 <body>
 	<?php include("header.php") ?>
+	<img src="images/degrade2.svg" alt="" style="width: 100%; z-index:-5; position:absolute;">
 	<div class="icon-bar">
 		<a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
 		<a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
@@ -28,7 +29,9 @@
 	<img src="images/degrade.svg" alt="" style="width:100%">
 </div>
 
-	<div class="parallax parallax-window" data-parallax="scroll" data-image-src="images/img_parallax1.jpg"></div>
+	<div class="parallax parallax-window" data-positionY="20%" data-parallax="scroll" data-image-src="images/img_parallax1.jpg"></div>
+
+
 
 	<section class="mapaccueil">
 		<div class="sct3txt">
