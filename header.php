@@ -9,7 +9,7 @@
 
 
       <div id="mySidenav" class="sidenav" >
-        <a href="#">Accueil</a>
+        <a href="./accueil.php">Accueil</a>
         <a href="#">Programme</a>
         <a href="#">Info Pratiques</a>
         <a href="#">Contact</a>
@@ -19,8 +19,8 @@
         <a href="#">Programme</a>
         <a href="#">LOGO</a>
           <div class = "compte">
-            <a href="#">S'inscrire</a>
-            <a href="#"><i class="fa fa-user"></i></a>
+            <a href="./inscription.php">S'inscrire</a>
+            <a href="./connexion.php"><i class="fa fa-user"></i></a>
           </div>
       </div>
 

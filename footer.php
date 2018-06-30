@@ -5,11 +5,9 @@
     <img src="images/favicon.png" alt="logo">
 
     <p class="footer-links">
-      <a href="#">Home</a> ·
-      <a href="#">Blog</a> ·
-      <a href="#">Pricing</a> ·
-      <a href="#">About</a> ·
-      <a href="#">Faq</a> ·
+      <a href="#">Accueil</a> ·
+      <a href="#">Programme</a> ·
+      <a href="#">Info pratiques</a> ·
       <a href="#">Contact</a>
     </p>
     <div style = "display : flex;">
@@ -33,7 +31,7 @@
 
     <div>
       <i class="fa fa-envelope"></i>
-      <p><a href="mailto:support@company.com">support@company.com</a></p>
+      <p><a href="mailto:lafetedunumérique@company.com">lafetedunumérique@company.com</a></p>
     </div>
 
   </div>
@@ -41,7 +39,7 @@
   <div class="footer-right">
 
     <p class="footer-company-about">
-      <span>About the company</span> Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+      <span>Au sujet de nous</span> Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
     </p>
 
     <div class="footer-icons">

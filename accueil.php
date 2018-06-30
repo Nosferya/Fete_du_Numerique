@@ -31,8 +31,6 @@
 
 	<div class="parallax parallax-window" data-positionY="20%" data-parallax="scroll" data-image-src="images/img_parallax1.jpg"></div>
 
-
-
 	<section class="mapaccueil">
 		<div class="sct3txt">
 			<h3>Les ardennes</h3>
@@ -52,7 +50,7 @@
 
 	</section>
 
-<?php include('footer.php')?>
+	<?php include('footer.php')?>
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="js/parallax.min.js"></script>
