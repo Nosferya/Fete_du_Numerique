@@ -5,7 +5,7 @@
     <img src="images/favicon.png" alt="logo">
 
     <p class="footer-links">
-      <a href="#">Accueil</a> ·
+      <a href="./accueil.php">Accueil</a> ·
       <a href="#">Programme</a> ·
       <a href="#">Info pratiques</a> ·
       <a href="#">Contact</a>

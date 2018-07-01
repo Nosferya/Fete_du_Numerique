@@ -17,7 +17,10 @@
 </head>
 
 <body>
+	<!-- HEADER -->
 	<?php include("header.php") ?>
+	<!-- HEADER -->
+
 	<img src="images/degrade2.svg" alt="" style="width: 100%; z-index:-5; position:absolute;">
 	<div class="icon-bar">
 		<a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
@@ -50,8 +53,10 @@
 
 	</section>
 
+	<!-- FOOTER -->
 	<?php include('footer.php')?>
-
+	<!-- FOOTER -->
+	
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="js/parallax.min.js"></script>
 	<script src="js/scripts.js"></script>
