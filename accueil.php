@@ -9,35 +9,71 @@
 	<title>Fête du Numérique 08</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-	<link href="http://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet" type="text/css">
-
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
 </head>
 
 <body>
+
 	<!-- HEADER -->
-	<?php include("header.php") ?>
+	<?php include("include/header.php") ?>
 	<!-- HEADER -->
 
-	<img src="images/degrade2.svg" alt="" style="width: 100%; z-index:-5; position:absolute;">
-	<div class="icon-bar">
+<main class="page_accueil">
+	<section>
+		<div class="icon-bar">
 		<a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
 		<a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
 		<a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+		<i class=" socialhide fas fa-angle-double-right"></i>
+		</div>
+		<div>
+			<i class=" socialappear fas fa-angle-double-left"></i>
+		</div>
+	</section>
+	<!-- <div class="">
+		<img src="images/degrade.svg" alt="" style="width:100%">
+	</div> -->
 
-	</div>
-<div class="">
-	<img src="images/degrade.svg" alt="" style="width:100%">
-</div>
-
+	<!-- PARTIE PRESENTATION -->
+	<section class="presentation">
+		<h3>Présentation </h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+			dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</section>
+	<!-- FIN PARTIE PRESENTATION -->
 	<div class="parallax parallax-window" data-positionY="20%" data-parallax="scroll" data-image-src="images/img_parallax1.jpg"></div>
 
+	<!-- PARTIE EVENEMENT -->
+	<section class="evenement">
+		<div class="conf">
+			<img class="pict" src="images/conference.jpg">
+			<div>
+				<p>Conferences</p>
+			</div>
+		</div>
+		<div class="expo">
+			<img class="pict" src="images/exposition.jpg">
+			<div>
+				<p>Expositions</p>
+			</div>
+		</div>
+		<div class="anim">
+			<img class="pict" src="images/animation.jpg">
+			<div>
+				<p>Animations</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- FIN PARTIE EVENEMENT -->
+
+	<!-- PARTIE INFO PRATIQUES -->
 	<section class="mapaccueil">
 		<div class="sct3txt">
-			<h3>Les ardennes</h3>
-			<p>Etiam cursus, orci vitae viverra consequat, eros risus consectetur odio, vitae tempor dui magna ac nunc. Sed nulla metus, mattis vitae dolor ac, aliquet sagittis elit. Donec eu odio egestas, mattis turpis id, suscipit quam. Nunc semper tincidunt sagittis.
+				<h3>Les ardennes</h3>
+				<p>Etiam cursus, orci vitae viverra consequat, eros risus consectetur odio, vitae tempor dui magna ac nunc. Sed nulla metus, mattis vitae dolor ac, aliquet sagittis elit. Donec eu odio egestas, mattis turpis id, suscipit quam. Nunc semper tincidunt sagittis.
 				In nec sem aliquam, laoreet justo non, molestie odio. Sed sed rutrum ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam imperdiet lacus vel ipsum faucibus ullamcorper. Proin eu dolor pellentesque,
 				finibus mauris eget, lacinia quam. Ut ut nunc nec orci tincidunt vulputate. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus gravida erat velit, vel convallis dolor posuere eget. Nulla volutpat et est vel rhoncus. Cras lacinia vehicula
 				leo ut lacinia. Pellentesque non urna orci. Praesent sed neque sed est sollicitudin interdum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam vulputate eget lorem et fermentum. Maecenas ac ante sed
@@ -50,14 +86,17 @@
 			  style="border:0" allowfullscreen></iframe>
 
 		</div>
-
+		<!-- FIN PARTIE INFO PRATIQUES -->
 	</section>
+</main>
+	<!-- FOOTER -->
+	<?php include('include/footer.php')?>
+	<!-- FOOTER -->
 
-	<!-- FOOTER -->
-	<?php include('footer.php')?>
-	<!-- FOOTER -->
-	
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/ui/1.12.1/jquery-ui.js">
+
+	</script>
 	<script src="js/parallax.min.js"></script>
 	<script src="js/scripts.js"></script>
 </body>

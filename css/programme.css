@@ -1,0 +1,303 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 62.5%;
+}
+              /***********************************************************
+              *                            PROGRAMME                     *
+              ************************************************************/
+
+/* CONFERENCE - EXPOSITION - ANIMATION   */
+
+.listeprogr{
+  margin-top:6%;
+}
+
+h1{
+  font-size: 3rem;
+  text-align: center;
+}
+
+.conference,
+.exposition,
+.animation
+{
+  display:flex;
+  max-width: 100%;
+  margin-top : 2%;
+  padding:2%;
+}
+
+.conference{
+  background-color: rgb(247, 101, 16);
+  box-shadow: 0 0 33px 40px rgb(247, 101, 16);
+}
+
+.exposition{
+  background-color: #2e2df8;
+  box-shadow: 0 0 33px 40px #2e2df8;
+}
+
+.animation{
+background-color: #2eff0a;
+box-shadow: 0 0 33px 40px #2eff0a;
+}
+
+figure{
+  margin:auto;
+  position:relative;
+}
+
+figure div
+{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  display:none;
+  transition: 0.5s;
+  font-size: 1.5rem;
+  color:#f1f1f1;
+  text-align: justify;
+  padding:5px;
+  border-radius: 10px;
+}
+
+#pict{
+  max-width: 370px;
+  min-height: 100px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+figcaption{
+  text-align: center;
+  padding:3%;
+}
+
+button{
+  font-size: 1.5rem;
+  border-radius: 5px;
+  padding:1%;
+}
+
+/* .conference button:hover{
+  box-shadow: 2px 2px 2px 3px #FB2D21;
+}
+.exposition button:hover{
+  box-shadow: 0px 0px 15px 15px #fff;
+}
+.animation button:hover{
+  box-shadow: 0 0 15px 15pxrgb(35, 182, 14);
+} */
+
+ button:hover{
+  box-shadow: 0px 0px 15px 15px #fff;
+  color:#fff;
+}
+
+h4 {
+  font-size: 1.6rem;
+  margin:0 0 1% 0;
+}
+
+ h4 a{
+  font-size: 3rem;
+  margin-left: 55%;
+  color : #f1f1f1;
+  text-decoration: none;
+  cursor:pointer;
+}
+
+#slide_conf_1,
+#slide_conf_2,
+#slide_conf_3
+{
+background-color: #FB2D21;
+}
+
+#slide_expo_1,
+#slide_expo_2,
+#slide_expo_3
+{
+background-color: #0C1FAE;
+}
+
+#slide_anim_1,
+#slide_anim_2,
+#slide_anim_3 {
+background-color: #2fa71d;
+}
+/*****FIN CONFERENCE EXPOSITION ANIMATION ****/
+
+/* CALENDRIER */
+
+.calendrier{
+  display : flex;
+  padding: 1% 10%;
+}
+
+ h5
+ {
+  font-size: 2rem;
+  margin-top: 4%;
+  }
+
+.jour1,
+.jour2,
+.jour3 {
+    display :flex;
+    max-width: 33%;
+  }
+
+.calendrier div p
+{text-align: center;
+}
+
+.calendrier .horaire,
+.calendrier .conf,
+.calendrier .expo,
+.calendrier .anim
+{
+  width : 100px;
+  background-color: white;
+  padding:20px;
+  font-size: 1.5rem;
+}
+
+.calendrier .conf,
+.calendrier .expo,
+.calendrier .anim {
+  border: 1px solid black ;
+  position:relative;
+}
+
+.a,
+.b,
+.c,
+.d{
+  position: absolute;
+  width:40%;
+  border-radius: 10%;
+}
+
+ .conf .a,
+ .conf .b,
+ .conf .c,
+ .conf .d{
+   background-color: rgb(247, 101, 16);
+ }
+
+ .expo .a,
+ .expo .b{
+   background-color: #2e2df8;
+ }
+
+ .anim .a,
+ .anim .b {
+   background-color: #2eff0a;
+ }
+
+.jour1 .conf .a{
+  height: 50px;
+  transform:translate(25px, 19px);
+}
+
+.jour1 .conf .b {
+  height: 100px;
+  transform:translate(25px, 200px);
+}
+
+.jour1 .expo .a {
+   height: 120px;
+   transform:translate(25px, 19px);
+ }
+
+.jour1 .expo .b {
+  height: 120px;
+  transform:translate(25px, 200px);
+}
+
+.jour1 .anim .a{
+  height:100px;
+  transform:translate(25px, 19px);
+}
+
+.jour1 .anim .b {
+  height: 50px;
+  transform:translate(25px, 200px);
+}
+
+.jour2 .conf .a{
+  height: 50px;
+  transform:translate(25px, 20px);
+}
+
+.jour2 .conf .b {
+  height: 50px;
+  transform:translate(25px, 95px);
+}
+
+.jour2 .conf .c{
+  height: 50px;
+  transform:translate(25px, 170px);
+}
+
+.jour2 .conf .d {
+  height: 50px;
+  transform:translate(25px, 240px);
+}
+
+.jour2 .expo .a {
+   height: 120px;
+   transform:translate(25px, 19px);
+ }
+
+.jour2 .expo .b {
+  height: 120px;
+  transform:translate(25px, 200px);
+}
+
+.jour2 .anim .a{
+  height:100px;
+  transform:translate(25px, 19px);
+}
+
+.jour2 .anim .b {
+  height: 100px;
+  transform:translate(25px, 200px);
+}
+
+.jour3 .conf .a{
+  height: 50px;
+  transform:translate(25px, 20px);
+}
+
+.jour3 .conf .b {
+  height: 50px;
+  transform:translate(25px, 95px);
+}
+
+.jour3 .conf .c{
+  height: 50px;
+  transform:translate(25px, 170px);
+}
+
+.jour3 .expo .a {
+   height: 120px;
+   transform:translate(25px, 19px);
+ }
+
+.jour3 .expo .b {
+  height: 120px;
+  transform:translate(25px, 200px);
+}
+
+.jour3 .anim .a {
+  height: 100px;
+  transform:translate(25px, 200px);
+}
+/****FIN PLANNING ****/

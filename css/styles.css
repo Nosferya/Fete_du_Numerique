@@ -2,13 +2,21 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: 'Raleway', sans-serif;
+  font-size: 62.5%;
+  line-height: 20px;
+  display:flex;
+  flex-direction: column;
+  height:100%;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
   line-height: 20px;
 }
 
-.degrade2{
 
-  width: 100%;
-}
 /*       ****************************
          *          HEADER          *
          ****************************
@@ -16,14 +24,15 @@ html, body {
 */
 
 header {
-  position:relative;
-  max-width: 100%;
-  height: 150px;
-  background-color: #4473DB;
-  font-size: 25px;
+  display:flex;
+  width: 100%;
+  /* height: 20%; */
+  background-color: #000;
+  font-size: 2.5rem;
   padding-top:20px;
+  position: fixed;
+  z-index:10;
 }
-
 
 header a {
   color: #f1f1f1;
@@ -31,18 +40,21 @@ header a {
 }
 
 header a:hover {
-  color: #121111;
+text-shadow: 1px 1px 5px #fff;
 }
 
 /*---------------------------BOUTON------------------------*/
 
  header span{
-  background-color: #4473DB;
-  cursor: pointer;
-  position : absolute;
+  background-color: #000;
   cursor: pointer;
   margin-top: 1%;
   margin-left:5%;
+}
+
+.menu{
+  width: 10%;
+  padding-left:3%;
 
 }
 
@@ -51,7 +63,7 @@ header a:hover {
     height: 5px;
     background-color: #f1f1f1;
     margin: 6px 0;
-    transition: 0.4s;
+    transition: 0.3s;
 }
 
 .change .bar1 {
@@ -74,20 +86,22 @@ header a:hover {
   width: 0%;
   position: fixed;
   z-index: 1;
-  top: 25%;
+  top: 12%;
   left: 0%;
-  background-color: rgba(68,115,219,.84);
+  background-color: rgba(0,0,0,0.8);
   overflow-x: hidden;
-  /* transition: 0.5s; */
+  transition: 0.5s;
   padding-top: 25px;
+
   }
 
-
+/*--animation du menu déroulant---*/
 .animation-left{
 animation-name:  slideleft;
 animation-duration: 1s;
 animation-fill-mode: forwards;
 }
+
 .animation-right{
 animation-name:  slideright;
 animation-duration: 1s;
@@ -101,70 +115,83 @@ animation-fill-mode: forwards;
 @keyframes slideright{
   0%   {width:20%;}
   100% {width: 0%;}
-
 }
 
 .sidenav a {
   display: block;
-  padding: 8px 8px 8px 32px;
+  padding: 25px 8px 8px 32px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 2.5rem;
   color: #f1f1f1;
-  transition: 0.3s;
+  transition: 1s;
 }
 
 .sidenav a:hover {
-  color: #121111;
+    text-shadow : 0 0 5px #fff;
 }
 
-@media screen and (max-height: 250px) {
+ @media screen and (max-height: 250px) {
   .sidenav {
     padding-top: 15px;
   }
   .sidenav a {
-    font-size: 18px;
+    font-size: 1.8rem;
   }
 }
 /*<-------------------FIN menu déroulant--------------------->*/
 
-
-/*<-------------------DEBUT nav programme / logo / inscrire / compte--------------------->*/
-
-.nav{
-  width : 100%;
-}
-
-.nav a{
-  float: left;
+/*<------------------programme--------------------->*/
+.programme{
+  width : 30%;
+  margin-top: 1%;
   text-align: center;
-  padding: 1% 16%;
-  text-decoration: none;
+
 }
-/*<-------------------FIN nav programme / logo / inscrire / compte--------------------->*/
+
+/*<-------------------DEBUT  logo------------*/
+.logo {
+  width :50%;
+  min-height: 100px;
+  background-image: url("../images/fnlogoblanc.svg");
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+
+/*<-------------------FIN logo--------------------->*/
+
+
 
 /* ----------- DEBUT compte utilisateur---------------------->*/
 
 .compte{
-  float:right;
+  width:20%;
+  margin-top:1%;
 }
 
-.compte a{
-  padding :20px;
+.compte a:first-child{
+  float: left;
 }
+.compte a:last-child{
+  float: right;
+  padding-right :10%;
+}
+
 /*       ****************************
          *        FIN HEADER        *
          ****************************
 
 */
+
+
 /* Design degrade */
 
+/*
 .degradecourbe{
   background: url(../images/degrade.svg) no-repeat ;
   z-index: 1;
   height: 500px;
   width: 1200px;
-}
-
+} */
 
 /*       ****************************
          *      PARTIE PARALLAX     *
@@ -189,9 +216,13 @@ animation-fill-mode: forwards;
   position: fixed;
   right: 0%;
   top: 50%;
-  -webkit-transform: translateY(-50%);
+  /* -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  transform: translateY(-50%); */
+}
+
+.icon-bar:hover .socialhide {
+visibility: visible;
 }
 
 .icon-bar a {
@@ -200,11 +231,25 @@ animation-fill-mode: forwards;
   padding: 11px;
   transition: all 0.3s ease;
   color: white;
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 .icon-bar a:hover {
   background-color: #000;
+}
+.socialhide {
+  visibility: hidden;
+  color:blue;
+  cursor: pointer;
+}
+
+.socialappear {
+  position: fixed;
+  right: 0%;
+  top: 55%;
+  color : blue;
+  display:block;
+  cursor:pointer;
 }
 
 .facebook {
@@ -225,16 +270,92 @@ animation-fill-mode: forwards;
 
 /*
            *********************************************
-           * PARTIE GOOGLE MAP ET TEXTE PAGE D'ACCUEIL *
+           *          PARTIE MAIN page accueil         *
+           **********************************************/
+
+.page_accueil{
+  margin-top:8%;
+}
+/*
+           *********************************************
+           *          PARTIE PRESENTATION              *
            *********************************************
  */
 
+.presentation {
+  width: 55%;
+  margin: auto;
+  height: 250px;
+}
+
+.presentation p {
+  text-align: justify;
+  margin-top: 4%;
+  font-size: 1.5rem;
+}
+
+.presentation h3 {
+  text-align: center;
+  margin-top: 4%;
+  font-size: 2.5rem;
+}
+
+/*
+            *********************************************
+            *          FIN PARTIE PRESENTATION          *
+            *********************************************
+  */
+
+  /*
+              *********************************************
+              *               ACCUEIL EVENEMENT           *
+              *********************************************
+    */
+    .evenement {
+        display: flex;
+        width: 90%;
+        margin: auto;
+        height: 500px;
+        text-align: center;
+        margin-top:50px;
+    }
+
+  .evenemnt .conf,
+  .evenement .expo,
+  .evenemnt .anim {
+        width: 29%;
+        margin: auto;
+        background-color:#4473DB;
+        text-align: center;
+        max-width: 100%;
+        height: auto!important;
+      }
+
+    .evenement p {
+        text-align: center;
+        font-size: 2rem;
+        margin: auto;
+        padding: 20px;
+        color: white;
+    }
+
+     .evenement .pict{
+      max-width: 100%;
+      height: auto!important;
+    }
+
+/*
+           *********************************************
+           * PARTIE GOOGLE MAP ET TEXTE PAGE D'ACCUEIL *
+           *********************************************
+ */
 
 .mapaccueil {
   display: flex;
   justify-content: space-around;
   text-align: center;
   margin-top: 50px;
+  margin-bottom: 100px;
 }
 
 .sct3txt, .googlemap {
@@ -243,10 +364,12 @@ animation-fill-mode: forwards;
 
 div p {
   text-align: justify;
+  font-size: 1.5rem;
 }
 
 h3 {
   text-align: center;
+  font-size: 2.5rem;
 }
 
 .googlemap iframe {
@@ -259,19 +382,19 @@ h3 {
               ************************
  */
 
-footer{
+footer {
   bottom: 0;
 }
 
 .footer-distributed {
-  background-color: #292c2f;
+  background-color: #292C2F;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
   width: 100%;
   text-align: left;
-  font: bold 16px sans-serif;
+  font: bold 1.6rem sans-serif;
   padding: 55px 50px;
-  margin-top: 80px;
+  margin-top: auto;
 }
 
 .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
@@ -288,7 +411,7 @@ footer{
 /* -----------------The company logo------------------ */
 
 footer img {
-  margin-left: 40%;
+  width: 80%;
 }
 
 /* --------------------Footer links----------------- */
@@ -308,7 +431,7 @@ footer img {
 
 .footer-distributed .footer-company-name {
   color: #8f9296;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: normal;
   margin: 0;
 }
@@ -322,7 +445,7 @@ footer img {
 .footer-distributed .footer-center i {
   background-color: #33383b;
   color: #ffffff;
-  font-size: 25px;
+  font-size: 2.5rem;
   width: 38px;
   height: 38px;
   border-radius: 50%;
@@ -333,7 +456,7 @@ footer img {
 }
 
 .footer-distributed .footer-center i.fa-envelope {
-  font-size: 17px;
+  font-size: 1.7rem;
   line-height: 38px;
 }
 
@@ -347,7 +470,7 @@ footer img {
 .footer-distributed .footer-center p span {
   display: block;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 1.4rem;
   line-height: 2;
 }
 
@@ -366,7 +489,7 @@ footer img {
 .footer-distributed .footer-company-about {
   line-height: 20px;
   color: #92999f;
-  font-size: 13px;
+  font-size: 1.3rem;
   font-weight: normal;
   margin: 0;
 }
@@ -374,7 +497,7 @@ footer img {
 .footer-distributed .footer-company-about span {
   display: block;
   color: #ffffff;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: bold;
   margin-bottom: 20px;
 }
@@ -390,7 +513,7 @@ footer img {
   cursor: pointer;
   background-color: #33383b;
   border-radius: 2px;
-  font-size: 20px;
+  font-size: 2rem;
   color: #ffffff;
   text-align: center;
   line-height: 35px;
@@ -402,7 +525,11 @@ footer img {
 
 @media screen and (max-width: 800px) {
   .footer-distributed {
-    font: bold 14px sans-serif;
+    font: bold 1.4rem sans-serif;
+    position: inherit;
+  }
+  footer img {
+    width: 100%;
   }
   .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
     display: block;
@@ -412,6 +539,10 @@ footer img {
   }
   .footer-distributed .footer-center i {
     margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
   }
   .mapaccueil {
     flex-direction: column;
@@ -426,6 +557,11 @@ footer img {
     padding: 6px;
     transition: all 0.3s ease;
     color: white;
-    font-size: 20px;
+    font-size: 2rem;
+  }
+
+  .evenement {
+    display:flex;
+    flex-direction: column;
   }
 }

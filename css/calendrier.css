@@ -1,0 +1,167 @@
+
+body {font-family: "Raleway", sans-serif;}
+
+.calendrier{
+  display : flex;
+}
+h4{
+  font-size: 20px;
+  margin-top: 4%;
+  }
+
+.jour1,
+.jour2,
+.jour3 {
+    display :flex;
+    padding: 10px 25px;
+    max-width: 33%;
+    text-align: center;
+    height: 100%;
+}
+
+.horaire{
+  width : 50px;
+  background-color: white;
+  padding:20px;
+}
+
+div p
+{text-align: center;
+}
+
+.conf,
+.expo,
+.anim {
+  border: 1px solid black ;
+  position:relative;
+  width:100px;
+  padding-top: 20px;
+}
+
+.a,
+.b,
+.c,
+.d{
+  position: absolute;
+  width:40%;
+  border-radius: 10%;
+}
+
+ .conf .a,
+ .conf .b,
+ .conf .c,
+ .conf .d{
+   background-color: rgb(247, 101, 16);
+ }
+
+ .expo .a,
+ .expo .b{
+   position: absolute;
+   background-color: #2e2df8;
+ }
+
+ .anim .a,
+ .anim .b {
+   position: absolute;
+   background-color: #2eff0a;
+ }
+
+.jour1 .conf .a{
+  height: 50px;
+  transform:translate(25px, 19px);
+}
+
+.jour1 .conf .b {
+  height: 100px;
+  transform:translate(25px, 200px);
+}
+
+.jour1 .expo .a {
+   height: 120px;
+   transform:translate(25px, 19px);
+ }
+
+.jour1 .expo .b {
+  height: 120px;
+  transform:translate(25px, 200px);
+}
+
+.jour1 .anim .a{
+  height:100px;
+  transform:translate(25px, 19px);
+}
+
+.jour1 .anim .b {
+  height: 50px;
+  transform:translate(25px, 200px);
+}
+
+.jour2 .conf .a{
+  height: 50px;
+  transform:translate(25px, 20px);
+}
+
+.jour2 .conf .b {
+  height: 50px;
+  transform:translate(25px, 95px);
+}
+
+.jour2 .conf .c{
+  height: 50px;
+  transform:translate(25px, 170px);
+}
+
+.jour2 .conf .d {
+  height: 50px;
+  transform:translate(25px, 240px);
+}
+
+.jour2 .expo .a {
+   height: 120px;
+   transform:translate(25px, 19px);
+ }
+
+.jour2 .expo .b {
+  height: 120px;
+  transform:translate(25px, 200px);
+}
+
+.jour2 .anim .a{
+  height:100px;
+  transform:translate(25px, 19px);
+}
+
+.jour2 .anim .b {
+  height: 100px;
+  transform:translate(25px, 200px);
+}
+
+.jour3 .conf .a{
+  height: 50px;
+  transform:translate(25px, 20px);
+}
+
+.jour3 .conf .b {
+  height: 50px;
+  transform:translate(25px, 95px);
+}
+
+.jour3 .conf .c{
+  height: 50px;
+  transform:translate(25px, 170px);
+}
+
+.jour3 .expo .a {
+   height: 120px;
+   transform:translate(25px, 19px);
+ }
+
+.jour3 .expo .b {
+  height: 120px;
+  transform:translate(25px, 200px);
+}
+
+.jour3 .anim .a {
+  height: 100px;
+  transform:translate(25px, 200px);
+}

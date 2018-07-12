@@ -1,0 +1,90 @@
+body {
+    font-family: Helvetica, Calibri, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #05111b;
+}
+
+.text {
+    color: #FFFFFF;
+    font-size: 4rem;
+    text-align: center;
+}
+
+fieldset {
+    color: #FFFFFF;
+    width: 700px;
+    margin: auto;
+    margin-top: 40px;
+    background-color: #333333;
+    border-radius: 10px;
+}
+
+.confield {
+    color: #FFFFFF;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #555555;
+}
+
+legend {
+    font-size: 2rem;
+}
+
+label {
+    font-size: 1.5rem;
+}
+
+input,
+select {
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 0;
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-bottom: 2%;
+    padding-left: 1%;
+    font-size: 1.5rem;
+}
+
+input[type="radio"] {
+    width: 20px;
+    vertical-align: middle;
+    margin-left: 40px;
+    font-size: 1.5rem;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    margin-left: 5%;
+    color: black;
+    font-size: 1.5rem;
+}
+
+span {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.5rem;
+    color: red;
+    text-align: center;
+}
+
+.field {
+    height: 450px;
+}
+
+#detail {
+    width: 90%;
+    height: 250px;
+    margin-left: 4%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
