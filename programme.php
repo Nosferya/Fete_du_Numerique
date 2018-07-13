@@ -48,7 +48,7 @@
           <img id="pict" src="images/conference.jpg">
           <figcaption><button id="open_conf2">En savoir plus</button></figcaption>
           <div id="slide_conf_2">
-            <h4>titre conférence 2<a href="" id="close_conf2">&times;</a></h4>
+            <h4>titre conférence 2<a href="javascript:void(0)" id="close_conf2">&times;</a></h4>
             <h4>horaire :</h4>
             <h4>Résumé :</h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </div>
@@ -60,7 +60,7 @@
             <button id="open_conf3">En savoir plus</button>
           </figcaption>
           <div id="slide_conf_3">
-            <h4>titre conférence 3<a href="" id="close_conf3">&times;</a></h4>
+            <h4>titre conférence 3<a href="javascript:void(0)" id="close_conf3">&times;</a></h4>
             <h4>horaire :</h4>
             <h4>Résumé :</h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </div>
@@ -74,7 +74,7 @@
           <img id="pict" src="images/exposition.jpg">
           <!-- <figcaption><button id="open_expo1">En savoir plus</button></figcaption> -->
           <div id="slide_expo_1">
-            <h4>titre exposition 1<a href="" id="close_expo1">&times;</a></h4>
+            <h4>titre exposition 1<a href="javascript:void(0)" id="close_expo1">&times;</a></h4>
             <h4>horaire :</h4>
             <h4>Résumé :</h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </div>
@@ -85,7 +85,7 @@
           <img id="pict" src="images/exposition.jpg">
           <figcaption><button id="open_expo2">En savoir plus</button></figcaption>
           <div id="slide_expo_2">
-            <h4>titre exposition 2<a href="" id="close_expo2">&times;</a></h4>
+            <h4>titre exposition 2<a href="javascript:void(0)" id="close_expo2">&times;</a></h4>
             <h4>horaire :</h4>
             <h4>Résumé :</h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </div>
@@ -94,7 +94,7 @@
           <img id="pict" src="images/exposition.jpg">
           <figcaption><button id="open_expo3">En savoir plus</button></figcaption>
           <div id="slide_expo_3">
-            <h4>titre exposition 3<a href="" id="close_expo3">&times;</a></h4>
+            <h4>titre exposition 3<a href="javascript:void(0)" id="close_expo3">&times;</a></h4>
             <h4>horaire :</h4>
             <h4>Résumé :</h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </div>
@@ -108,7 +108,7 @@
           <img id="pict" src="images/animation.jpg">
           <figcaption><button id=open_anim1>En savoir plus</button></figcaption>
           <div id="slide_anim_1">
-            <h4>titre animation 1<a href="" id="close_anim1">&times;</a></h4>
+            <h4>titre animation 1<a href="javascript:void(0)" id="close_anim1">&times;</a></h4>
             <h4>horaire :</h4>
             <h4>Résumé :</h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </div>
@@ -117,7 +117,7 @@
           <img id="pict" src="images/animation.jpg">
           <figcaption><button id=open_anim2>En savoir plus</button></figcaption>
           <div id="slide_anim_2">
-            <h4>titre animation 2<a href="" id="close_anim2">&times;</a></h4>
+            <h4>titre animation 2<a href="javascript:void(0)" id="close_anim2">&times;</a></h4>
             <h4>horaire :</h4>
             <h4>Résumé :</h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </div>
@@ -126,7 +126,7 @@
           <img id="pict" src="images/animation.jpg">
           <figcaption><button id=open_anim3>En savoir plus</button></figcaption>
           <div id="slide_anim_3">
-            <h4>titre animation 3<a href="" id="close_anim3">&times;</a></h4>
+            <h4>titre animation 3<a href="javascript:void(0)" id="close_anim3">&times;</a></h4>
             <h4>horaire :</h4>
             <h4>Résumé :</h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </div>

@@ -21,23 +21,13 @@
 	<!-- HEADER -->
 
 <main class="page_accueil">
-	<section>
-		<div class="icon-bar">
-		<a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
-		<a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
-		<a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
-		<i class=" socialhide fas fa-angle-double-right"></i>
-		</div>
-		<div>
-			<i class=" socialappear fas fa-angle-double-left"></i>
-		</div>
-	</section>
-	<!-- <div class="">
-		<img src="images/degrade.svg" alt="" style="width:100%">
-	</div> -->
+
+	<!-- LA BARRE SOCIALE -->
+ 	<?php include ('include/socialbar.php') ?>
+	<!-- FIN LA BARRE SOCIALE -->
 
 	<!-- PARTIE PRESENTATION -->
-	<section class="presentation">
+		<section class="presentation">
 		<h3>Présentation </h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
 			dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>

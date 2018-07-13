@@ -45,11 +45,10 @@ text-shadow: 1px 1px 5px #fff;
 
 /*---------------------------BOUTON------------------------*/
 
- header span{
+ header div{
   background-color: #000;
   cursor: pointer;
   margin-top: 1%;
-  margin-left:5%;
 }
 
 .menu{
@@ -63,7 +62,7 @@ text-shadow: 1px 1px 5px #fff;
     height: 5px;
     background-color: #f1f1f1;
     margin: 6px 0;
-    transition: 0.3s;
+    /* transition: 0.3s; */
 }
 
 .change .bar1 {
@@ -86,13 +85,12 @@ text-shadow: 1px 1px 5px #fff;
   width: 0%;
   position: fixed;
   z-index: 1;
-  top: 12%;
+  top: 12.5%;
   left: 0%;
   background-color: rgba(0,0,0,0.8);
   overflow-x: hidden;
-  transition: 0.5s;
+  /* transition: 0.5s; */
   padding-top: 25px;
-
   }
 
 /*--animation du menu déroulant---*/
@@ -154,7 +152,6 @@ animation-fill-mode: forwards;
   min-height: 100px;
   background-image: url("../images/fnlogoblanc.svg");
   background-repeat: no-repeat;
-  background-size:contain;
 }
 
 /*<-------------------FIN logo--------------------->*/
@@ -178,25 +175,12 @@ animation-fill-mode: forwards;
 
 /*       ****************************
          *        FIN HEADER        *
-         ****************************
+         *****************************/
 
-*/
-
-
-/* Design degrade */
-
-/*
-.degradecourbe{
-  background: url(../images/degrade.svg) no-repeat ;
-  z-index: 1;
-  height: 500px;
-  width: 1200px;
-} */
 
 /*       ****************************
          *      PARTIE PARALLAX     *
          ****************************
-
 */
 
 .parallax {
@@ -208,17 +192,12 @@ animation-fill-mode: forwards;
 
 /*       ****************************
          * PARTIE STICKY SOCIAL BAR *
-         ****************************
-
-*/
+         *****************************/
 
 .icon-bar {
   position: fixed;
   right: 0%;
   top: 50%;
-  /* -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%); */
 }
 
 .icon-bar:hover .socialhide {
@@ -241,6 +220,7 @@ visibility: visible;
   visibility: hidden;
   color:blue;
   cursor: pointer;
+  font-size:2rem;
 }
 
 .socialappear {
@@ -250,6 +230,7 @@ visibility: visible;
   color : blue;
   display:block;
   cursor:pointer;
+  font-size: 2rem;
 }
 
 .facebook {
@@ -311,37 +292,37 @@ visibility: visible;
               *               ACCUEIL EVENEMENT           *
               *********************************************
     */
-    .evenement {
-        display: flex;
-        width: 90%;
-        margin: auto;
-        height: 500px;
-        text-align: center;
-        margin-top:50px;
-    }
+  .evenement {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    /* height: 500px; */
+    text-align: center;
+    margin-top:50px;
+}
 
-  .evenemnt .conf,
+  .evenement .conf,
   .evenement .expo,
-  .evenemnt .anim {
-        width: 29%;
-        margin: auto;
-        background-color:#4473DB;
-        text-align: center;
-        max-width: 100%;
-        height: auto!important;
-      }
+  .evenement .anim {
+    width: 29%;
+    margin: auto;
+    background-color:#4473DB;
+    text-align: center;
+    /* max-width: 100%; */
+    height: auto!important;
+  }
 
-    .evenement p {
-        text-align: center;
-        font-size: 2rem;
-        margin: auto;
-        padding: 20px;
-        color: white;
+  .evenement p {
+      text-align: center;
+      font-size: 2rem;
+      margin: auto;
+      padding: 20px;
+      color: white;
     }
 
-     .evenement .pict{
-      max-width: 100%;
-      height: auto!important;
+ .evenement .pict{
+  max-width: 100%;
+  height: auto!important;
     }
 
 /*
@@ -521,47 +502,87 @@ footer img {
   margin-bottom: 5px;
 }
 
-/* -------------partie media queries responsive------------- */
+/*********************************************************
+------------partie media queries responsive------------- *
+*********************************************************/
 
 @media screen and (max-width: 800px) {
-  .footer-distributed {
-    font: bold 1.4rem sans-serif;
-    position: inherit;
-  }
-  footer img {
-    width: 100%;
-  }
-  .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
-    display: block;
-    width: 100%;
-    margin-bottom: 40px;
-    text-align: center;
-  }
-  .footer-distributed .footer-center i {
-    margin-left: 0;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    margin-top: 20px;
-  }
-  .mapaccueil {
-    flex-direction: column;
-    align-items: center;
-  }
-  .sct3txt, .googlemap {
-    width: 80%;
-  }
-  .icon-bar a {
-    display: block;
-    text-align: center;
-    padding: 6px;
-    transition: all 0.3s ease;
-    color: white;
-    font-size: 2rem;
+
+  .sidenav {
+    top: 14.5%;
+    left: 0%;
+    background-color: rgba(0,0,0,0.8);
+    overflow-x: hidden;
+    }
+
+  .menu{
+      width : 50%;
+      margin:0;
   }
 
-  .evenement {
-    display:flex;
-    flex-direction: column;
+  .programme,
+  .compte{
+    display:none;
   }
+
+  .logo{
+    width:100%;
+  }
+
+  @keyframes slideleft{
+    100% {width: 90%;}
+  }
+
+  @keyframes slideright{
+    0%   {width:90%;}
+    100% {width: 0%;}
+  }
+
+    .footer-distributed {
+      font: bold 1.4rem sans-serif;
+      position: inherit;
+    }
+    footer img {
+      width: 100%;
+    }
+    .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+      display: block;
+      width: 100%;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+    .footer-distributed .footer-center i {
+      margin-left: 0;
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      margin-top: 20px;
+    }
+    .mapaccueil {
+      flex-direction: column;
+      align-items: center;
+    }
+    .sct3txt, .googlemap {
+      width: 80%;
+    }
+    .icon-bar a {
+      display: block;
+      text-align: center;
+      padding: 6px;
+      transition: all 0.3s ease;
+      color: white;
+      font-size: 2rem;
+    }
+
+    .evenement {
+      display:flex;
+      flex-direction: column;
+    }
+
+    .evenement .conf,
+    .evenement .expo,
+    .evenement .anim{
+      width:60%;
+      margin-bottom:5%;
+    }
 }

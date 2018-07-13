@@ -1,10 +1,10 @@
   <header>
       <div class="menu" onclick="changeX(this)">
-       <span class ="bouton" id="bouton" >
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-        </span>
+       <div class ="bouton" id="bouton" >
+            <p class="bar1"></p>
+            <p class="bar2"></p>
+            <p class="bar3"></p>
+        </div>
       </div>
 
       <div id="mySidenav" class="sidenav" >

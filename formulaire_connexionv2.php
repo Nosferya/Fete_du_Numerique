@@ -21,23 +21,27 @@
   <?php include("include/header.php") ?>
   <!-- </header> -->
 
-  <!--CHAMP FORMULAIRE-->
-  <section class="marginB">
-    <form method="post" action="account.php">
-      <fieldset>
-        <legend>Connexion</legend>
-        <label for="mail">Email : </label>
-        <input type="email" name="mail" id="mail" placeholder="Entrez votre adresse email" required><br>
-        <label for="mdpi">Mot de passe : </label>
-        <input type="password" name="mdpi" id="mdpi" placeholder="Entrez votre mot de passe" required><br>
-        <input type="submit" value="SE CONNECTER">
-      </fieldset>
-    </form>
-  </section>
+  <main>
+    <?php include ("include/socialbar.php") ?>
+    <!--CHAMP FORMULAIRE-->
+    <section class="marginB">
+      <form method="post" action="account.php">
+        <fieldset>
+          <legend>Connexion</legend>
+          <label for="mail">Email : </label>
+          <input type="email" name="mail" id="mail" placeholder="Entrez votre adresse email" required><br>
+          <label for="mdpi">Mot de passe : </label>
+          <input type="password" name="mdpi" id="mdpi" placeholder="Entrez votre mot de passe" required><br>
+          <input type="submit" value="SE CONNECTER">
+        </fieldset>
+      </form>
+    </section>
+  </main>
   <!-- FOOTER -->
   <?php include('include/footer.php')?>
   <!-- FOOTER -->
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script src="js/connexion.js"></script>
   <script src="js/scripts.js"></script>
 
