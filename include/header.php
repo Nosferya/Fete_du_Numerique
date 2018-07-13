@@ -20,7 +20,7 @@
         <a href="./programme.php">Programme</a>
       </div>
       <div class = "logo">
-        <a  href="./index.html"></a>
+        <a  href="./index.html"><img src="images/fnlogoblanc.svg" class="resize"</a>
       </div>
       <div class = "compte">
         <a href="./formulaire_inscriptionv2.php">S'inscrire</a>

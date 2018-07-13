@@ -150,10 +150,13 @@ animation-fill-mode: forwards;
 .logo {
   width :50%;
   min-height: 100px;
-  background-image: url("../images/fnlogoblanc.svg");
-  background-repeat: no-repeat;
+  /* background-image: url("../images/fnlogoblanc.svg");
+  background-repeat: no-repeat; */
 }
-
+ .resize{
+   max-width: 100%;
+   height:auto !important;
+ }
 /*<-------------------FIN logo--------------------->*/
 
 
@@ -516,7 +519,7 @@ footer img {
     }
 
   .menu{
-      width : 50%;
+      width : 10%;
       margin:0;
   }
 
@@ -527,6 +530,7 @@ footer img {
 
   .logo{
     width:100%;
+    margin-left: 10%
   }
 
   @keyframes slideleft{
