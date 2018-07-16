@@ -142,8 +142,9 @@ animation-fill-mode: forwards;
 .programme{
   width : 30%;
   margin-top: 1%;
-  text-align: center;
-
+}
+.programme a{
+  border:1px solid white;
 }
 
 /*<-------------------DEBUT  logo------------*/
