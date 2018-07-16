@@ -54,10 +54,13 @@ select {
     margin-left: 4%;
     margin-bottom: 2%;
     padding-left: 1%;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    color:#f1f1f1;
 }
 textarea {
   resize: none;
+  font-size:2rem;
+  color:black;
 }
 
 input[type="radio"] {
@@ -72,9 +75,9 @@ input[type="reset"] {
     width: 200px;
     height: 60px;
     border-radius: 5px;
-    margin-left: 5%;
+    margin-left: 15%;
     color: black;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 span {
