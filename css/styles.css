@@ -302,6 +302,8 @@ margin-left: 31%;
 background-color: black;
 padding: 40px;
 top:0;
+box-shadow: 0 0 10px 10px black;
+background-color: #051821;
 
 }
 /* .ci p {
@@ -625,9 +627,11 @@ footer img {
     }
     .pres p{
       margin:0 auto;
+      width: 60%;
+      margin-top:110px;
 
     }
 .ci img:first-child {
-  height: 500px;
+  height: 700px;
 }
 }
