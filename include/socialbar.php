@@ -5,7 +5,7 @@
   <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
   <i class=" socialhide fas fa-angle-double-right"></i>
   </div>
-  <div>
+  <div class="icon-bar2">
     <i class=" socialappear fas fa-angle-double-left"></i>
   </div>
 </section>

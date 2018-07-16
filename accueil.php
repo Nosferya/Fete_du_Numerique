@@ -23,17 +23,23 @@
 <main class="page_accueil">
 
 	<!-- LA BARRE SOCIALE -->
- 	<?php include ('include/socialbar.php') ?>
+ 	<?php include('include/socialbar.php') ?>
 	<!-- FIN LA BARRE SOCIALE -->
 
 	<!-- PARTIE PRESENTATION -->
-		<section class="presentation">
-		<h3>Présentation </h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-			dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<section class="ci">
+		<div class="pres">
+			<img src="images/bgaccueil.jpg" alt="">
+			<p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+				dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+
+		<!-- <div class="presentation"> -->
+
+	<!-- </div> -->
+	<img src="images/ombre_place.png" alt="" class="ombreplace">
 	</section>
 	<!-- FIN PARTIE PRESENTATION -->
-	<div class="parallax parallax-window" data-positionY="20%" data-parallax="scroll" data-image-src="images/img_parallax1.jpg"></div>
 
 	<!-- PARTIE EVENEMENT -->
 	<section class="evenement">
