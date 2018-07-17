@@ -291,6 +291,7 @@ width: 100%;
 .pres {
   position: relative;
 }
+
 .pres p{
 position: absolute;
 z-index: 9;
@@ -625,13 +626,16 @@ footer img {
       width:60%;
       margin-bottom:5%;
     }
-    .pres p{
-      margin:0 auto;
-      width: 60%;
-      margin-top:110px;
-
-    }
-.ci img:first-child {
-  height: 700px;
 }
+
+@media screen and (max-width :1200px){
+  .pres p{
+    margin:0 auto;
+    width: 60%;
+    margin-top:110px;
+  }
+
+  .ci img:first-child {
+  height: 700px;
+  }
 }

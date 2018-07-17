@@ -7,7 +7,7 @@
     <p class="footer-links">
       <a href="./accueil.php">Accueil</a> ·
       <a href="./programme.php">Programme</a> ·
-      <a href="">Info pratiques</a> ·
+      <a href="./infopratique.php">Info pratiques</a> ·
       <a href="./formulaire_inscription.php">S'inscrire</a> .
       <a href="./formulaire_connexion.php">Connexion</a> .
       <a href="./contact.php">Contact</a>

@@ -11,8 +11,8 @@
         <a href="./accueil.php">Accueil</a>
         <a href="./programme.php">Programme</a>
         <a href="./infopratique.php">Info Pratiques</a>
-        <a href="./formulaire_inscriptionv2.php">S'inscrire</a>
-        <a href="./formulaire_connexionv2.php">Connexion</i></a>
+        <a href="./formulaire_inscription.php">S'inscrire</a>
+        <a href="./formulaire_connexion.php">Connexion</i></a>
         <a href="./contact.php">Contact</a>
       </div>
 
@@ -23,8 +23,8 @@
         <a  href="./index.html"><img src="images/fnlogoblanc.svg" class="resize"</a>
       </div>
       <div class = "compte">
-        <a href="./formulaire_inscriptionv2.php">S'inscrire</a>
-        <a href="./formulaire_connexionv2.php"><i class="fa fa-user"></i></a>
+        <a href="./formulaire_inscription.php">S'inscrire</a>
+        <a href="./formulaire_connexion.php"><i class="fa fa-user"></i></a>
       </div>
 
     </header>
