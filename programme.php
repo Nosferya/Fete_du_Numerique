@@ -21,12 +21,18 @@
     <?php include("include/header.php") ?>
     <!-- HEADER -->
     <!-- Menu des réseaux sociaux-->
-    <section class="icon-bar">
-      <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
-      <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
-      <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+    <!-- LA BARRE SOCIALE -->
+    <?php include('include/socialbar.php') ?>
+    <!-- FIN LA BARRE SOCIALE -->
+
+    <!-- PARTIE PRESENTATION -->
+    <section class="ci">
+      <div class="pres">
+        <img src="images/bgaccueil.jpg" alt="">
+      </div>
+      <img src="images/ombre_sanglier.png" alt="" class="ombreplace">
     </section>
-<!--  FIN du Menu des réseaux sociaux-->
+    <!-- FIN PARTIE PRESENTATION -->
  <!-- Corps principal -->
     <main class= "listeprogr">
 
