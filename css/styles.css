@@ -48,7 +48,6 @@ text-shadow: 1px 1px 5px #fff;
  header div{
   background-color: #000;
   cursor: pointer;
-  margin-top: 1%;
 }
 
 .menu{
@@ -144,7 +143,8 @@ animation-fill-mode: forwards;
   margin-top: 1%;
 }
 .programme a{
-  border:1px solid white;
+  border: 2px solid white;
+  padding: 2%;
 }
 
 /*<-------------------DEBUT  logo------------*/
@@ -226,7 +226,7 @@ visibility: visible;
 }
 .socialhide {
   visibility: hidden;
-  color:blue;
+  color:#0983a9;
   cursor: pointer;
   font-size:2rem;
 }
@@ -235,7 +235,7 @@ visibility: visible;
   position: fixed;
   right: 0%;
   top: 55%;
-  color : blue;
+  color : #0983a9;
   display:block;
   cursor:pointer;
   font-size: 2rem;
