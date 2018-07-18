@@ -87,3 +87,9 @@ var y = 0;
             $(".icon-bar").show('slide', {direction: 'right'}, 1000);
             $(".socialappear").hide();
   });
+
+  /*       ****************************
+           *        SCROLL TOP        *
+           ****************************
+
+  */

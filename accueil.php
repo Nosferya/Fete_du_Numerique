@@ -22,6 +22,7 @@
 
 <main class="page_accueil">
 
+
 	<!-- LA BARRE SOCIALE -->
  	<?php include('include/socialbar.php') ?>
 	<!-- FIN LA BARRE SOCIALE -->

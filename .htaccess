@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteRule ^accueil$ accueil.php [L]
+RewriteRule ^programme$ programme.php [L]
+RewriteRule ^formulaire_inscription$ formulaire_inscription.php [L]
+RewriteRule ^formulaire_connexion$ formulaire_connexion.php [L]
+RewriteRule ^infopratique$ infopratique.php [L]
+RewriteRule ^contact$ contact.php [L]
+RewriteRule ^validation_contact$ validation_contact.php [L]
+RewriteRule ^validation_inscription$ validation_inscription.php [L]

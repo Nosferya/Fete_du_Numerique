@@ -8,23 +8,23 @@
       </div>
 
       <div id="mySidenav" class="sidenav" >
-        <a href="./accueil.php">Accueil</a>
-        <a href="./programme.php">Programme</a>
-        <a href="./infopratique.php">Info Pratiques</a>
-        <a href="./formulaire_inscription.php">S'inscrire</a>
-        <a href="./formulaire_connexion.php">Connexion</i></a>
-        <a href="./contact.php">Contact</a>
+        <a href="./accueil">Accueil</a>
+        <a href="./programme">Programme</a>
+        <a href="./infopratique">Info Pratiques</a>
+        <a href="./formulaire_inscription">S'inscrire</a>
+        <a href="./formulaire_connexion">Connexion</i></a>
+        <a href="./contact">Contact</a>
       </div>
 
       <div class ="programme">
-        <a href="./programme.php">Programme</a>
+        <a href="./programme">Programme</a>
       </div>
       <div class = "logo">
-        <a  href="./index.html"><img src="images/fnlogoblanc.svg" class="resize"</a>
+        <a  href="./"><img src="images/fnlogoblanc.svg" class="resize"</a>
       </div>
       <div class = "compte">
-        <a href="./formulaire_inscription.php">S'inscrire</a>
-        <a href="./formulaire_connexion.php"><i class="fa fa-user"></i></a>
+        <a href="./formulaire_inscription">S'inscrire</a>
+        <a href="./formulaire_connexion"><i class="fa fa-user"></i></a>
       </div>
 
     </header>

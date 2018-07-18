@@ -5,12 +5,12 @@
     <img src="images/fnlogoblanc.svg" alt="logo">
 
     <p class="footer-links">
-      <a href="./accueil.php">Accueil</a> ·
-      <a href="./programme.php">Programme</a> ·
-      <a href="./infopratique.php">Info pratiques</a> ·
-      <a href="./formulaire_inscription.php">S'inscrire</a> .
-      <a href="./formulaire_connexion.php">Connexion</a> .
-      <a href="./contact.php">Contact</a>
+      <a href="./accueil">Accueil</a> ·
+      <a href="./programme">Programme</a> ·
+      <a href="./infopratique">Info pratiques</a> ·
+      <a href="./formulaire_inscription">S'inscrire</a> .
+      <a href="./formulaire_connexion">Connexion</a> .
+      <a href="./contact">Contact</a>
     </p>
     <div style = "display : flex;">
       <p class="footer-company-name">Copyright &copy; 2018 &#160;| </p>

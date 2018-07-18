@@ -196,7 +196,9 @@ animation-fill-mode: forwards;
 
 /*       ****************************
          * PARTIE STICKY SOCIAL BAR *
-         *****************************/
+         ****************************
+
+*/
 
 .icon-bar {
   position: fixed;
@@ -254,6 +256,12 @@ visibility: visible;
   background: #fe6242;
   color: white;
 }
+
+/*       ****************************
+         *     PARTIE SCROLL TOP    *
+         ****************************
+
+*/
 
 
 /*
