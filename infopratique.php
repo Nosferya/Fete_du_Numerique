@@ -10,6 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/infopratique.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 
 </head>
@@ -24,7 +25,20 @@
 	<!-- FIN LA BARRE SOCIALE -->
   <main class= "infopratique">
 
-  </main>
+		<div class="descriptif">
+
+		</div>
+
+		<div class="carte">
+			<div class="picto">
+				<a href="#"><i class="fas fa-car"></i></a>
+				<a href	="#"><i class="fas fa-subway"></i></a>
+				<a href="#"><i class="fas fa-plane"></i><a>
+			</div>
+			<img src="images/france.gif" style="height:450px;" alt="France" id="france">
+		</div>
+
+	</main>
 
   <!-- FOOTER -->
   <?php include('include/footer.php')?>
