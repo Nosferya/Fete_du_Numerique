@@ -1,3 +1,4 @@
+<?php include("connectbdd.php") ?>
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -19,53 +20,40 @@
     <!-- </header> -->
   validation inscription
     <main>
-       <?php
-        try {
-                  $base=new PDO('mysql:host=localhost;dbname=testco;charset=utf8', 'root', '');
-            }
-        catch(Exception $E)
-        {
-            die('Erreur : '.$E->getMessage());
-        }
-        echo "Success";
-      ?>
 
       <?php
-           $gen=$_POST['titre'];
-           $name=$_POST['nom'];
-           $fname=$_POST['prenom'];
-           $mail=$_POST['email'];
-           $mdp1=$_POST['mdp1'];
-           $mdp2=$_POST['mdp2'];
-           $type=$_POST['type'];
+           $civilite  $_POST['civilite'];
+           $name = $_POST['nom'];
+           $fname = $_POST['prenom'];
+           $mail = $_POST['email'];
+           $login = $_pOST['login'];
+           $mdp1 = $_POST['mdp1'];
+           $mdp2 = $_POST['mdp2'];
 
-           if ($gen == 'F') {
-              $gen = "Mme";
-              }
-           else {
-              $gen = "M";
-              }
+/*test sur la civilité*/
+         if ($gen == 'F')
+         {
+            $gen = "Mme";
+         }
+         else
+         {
+            $gen = "M";
+          };
 
-          if($type == 1){
-              $type = "Visiteur";
-          }else if ($type == 2){
-              $type = "Exposant";
-           }
-          else  if ($type == 3){
-          $type = "Administrateur";
-           };
+/*test pour vérfier si les entrées du mot de passe sont identique*/
+        if ($mdp1 == $mdp2)
+        {
+           $mdpsha = sha1($mdp1);
+           echo "mot de passe identique";
+           echo $mdpsha;
 
-        echo $type;
-                   if ($mdp1 == $mdp2){
-                       $mdpsha = sha1($mdp1);
-        echo "OK";
-        echo $mdpsha;
-
-        $base->exec("INSERT INTO clients(titre,nom, prenom, mail, mdp, typeco) VALUES('$gen','$name','$fname','$mail','$mdpsha','$type')");
-        echo "Inscription Confirmée";
-                         }else {
-                             echo "<p>erreur mdp</p>";
-                         };
+        $base->exec("INSERT INTO user(n_user, p_user, email_user, login_user, mdp_user) VALUES('$civilite','$name','$fname','$mail','$login','$mdpsha')");
+        echo "Votre inscription est confirmée";
+          }
+          else
+          {
+            echo "<p>Les motd de passe dont différents, veuillez recommencer</p>";
+          };
       ?>
 
     </main>
