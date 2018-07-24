@@ -103,6 +103,14 @@ p {
     border-radius: 5px;
 }
 
+
+.v_contact h2{
+  margin-top: 150px;
+  font-size: 2.5rem;
+  color: #fff;
+  text-align: center;
+}
+
 @media screen and (max-width: 800px) {
   fieldset {
     width: 90%;

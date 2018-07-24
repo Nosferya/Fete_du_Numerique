@@ -16,11 +16,11 @@
         <a href="./contact">Contact</a>
       </div>
 
-      <div class ="programme">
-        <a href="./programme">Programme</a>
+      <div class ="programme animated flip delay-5s slower">
+        <a  href="./programme ">Programme</a>
       </div>
       <div class = "logo">
-        <a  href="./"><img src="images/fnlogoblanc.svg" class="resize"</a>
+        <a  href="./accueil"><img src="images/fnlogoblanc.svg" class="resize"</a>
       </div>
       <div class = "compte">
         <a href="./formulaire_inscription">S'inscrire</a>

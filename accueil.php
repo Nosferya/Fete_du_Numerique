@@ -8,6 +8,7 @@
 	<link rel="icon" type="image/x-icon" href="images/favicon.png" />
 	<title>Fête du Numérique 08</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
@@ -42,19 +43,19 @@
 	<!-- PARTIE EVENEMENT -->
 	<section class="evenement">
 		<div class="conf">
-			<img class="pict" src="images/conference.jpg">
+			<img class="pict" src="images/conf.png">
 			<div>
 				<p>Conferences</p>
 			</div>
 		</div>
 		<div class="expo">
-			<img class="pict" src="images/exposition.jpg">
+			<img class="pict" src="images/expo.png">
 			<div>
 				<p>Expositions</p>
 			</div>
 		</div>
 		<div class="anim">
-			<img class="pict" src="images/animation.jpg">
+			<img class="pict" src="images/anim.png">
 			<div>
 				<p>Animations</p>
 			</div>

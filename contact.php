@@ -20,7 +20,7 @@
 
   <?php include ("include/socialbar.php") ?>
   <section>
-    <form method="post" action="traitement.php">
+    <form method="post" action="v_contact.php">
       <fieldset>
         <legend>Formulaire de contact</legend>
         <p>Tous les champs sont obligatoires</p>
@@ -30,6 +30,7 @@
         <label for="fname"> Nom : </label><br><input type="text" name="fname" id="fname" class="txtinput" placeholder="Votre nom" required/><br>
         <label for="lname"> Prénom : </label><br><input type="text" name="lname" id="lname" class="txtinput" placeholder="Votre prénom" required/><br>
         <label for="mail"> Email : </label><br><input type="email" name="mail" id="mail" class="txtinput" placeholder="Votre email" required/><br>
+        <label for="sujet"> Sujet de la demande : </label><br><input type="text" name="sujet" id="sujet" class="txtinput" placeholder="le sujet de votre demande" required/><br>
         <label for="detail">Votre demande concerne : </label><br>
         <textarea name="detail" id="detail" required></textarea><br><br>
         <input type="submit" value="ENVOYER">

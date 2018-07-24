@@ -29,9 +29,9 @@
         <fieldset>
           <legend>Connexion</legend>
           <label for="mail">Email : </label>
-          <input type="email" name="mail" id="mail" placeholder="Entrez votre adresse email" required><br>
+          <input type="email" name="mail" id="mail"  required><br>
           <label for="mdpi">Mot de passe : </label>
-          <input type="password" name="mdpi" id="mdpi" placeholder="Entrez votre mot de passe" required><br>
+          <input type="password" name="mdpi" id="mdpi"  required><br>
           <input type="submit" value="SE CONNECTER">
         </fieldset>
       </form>

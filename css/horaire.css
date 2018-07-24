@@ -1,0 +1,85 @@
+.container{
+  width: 1500px!important;
+}
+.listeprogr h3{
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.listeprogr h4{
+  font-size: 20px;
+  margin-left: 5px;
+}
+.maj{
+  font-size: 39px;
+}
+
+.ligne{
+  display: flex;
+}
+
+.carte{
+  margin-top: 3%;
+  width: 455px;
+}
+
+.horaire_evenement{
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 5px;
+}
+
+.infoplus_evenement a{
+  text-decoration: none;
+  color: #000;
+  margin: 0 auto;
+  width: 20%;
+}
+
+/* couleur de fond  */
+.info-conf{
+  background: #e7b171;
+}
+
+.info-expo{
+  background-color: #78a5c1;
+}
+
+.info-anim{
+  background-color: #a87cc9;
+}
+
+/* statut */
+.stat{
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+}
+
+.last-place{
+  background-color: #f32e2e;
+  border-left: 5px solid #f32e2e;
+}
+
+.open{
+  background-color: #66a251;
+  border-left: 5px solid #66a251;
+}
+
+.full{
+  background-color: #000;
+  text-transform: uppercase!important;
+  border-left: 5px solid #000;
+}
+
+.border-last{
+  border-left: 5px solid #f32e2e;
+}
+
+.border-open{
+  border-left: 5px solid #66a251;
+}
+
+.border-full{
+  border-left: 5px solid #000;
+}

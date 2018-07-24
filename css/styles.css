@@ -25,6 +25,8 @@ html, body {
 
 header {
   display:flex;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
   /* height: 20%; */
   background-color: #000;
@@ -51,8 +53,9 @@ text-shadow: 1px 1px 5px #fff;
 }
 
 .menu{
-  width: 10%;
+  /* width: 10%;
   padding-left:3%;
+  padding-top: 7px; */
 
 }
 
@@ -139,17 +142,20 @@ animation-fill-mode: forwards;
 
 /*<------------------programme--------------------->*/
 .programme{
-  width : 30%;
-  margin-top: 1%;
+  /* width : 30%;
+  margin-top: 1%; */
+  background-color:red;
 }
 .programme a{
-  border: 2px solid white;
+  /* border: 2px solid white; */
   padding: 2%;
+
 }
 
 /*<-------------------DEBUT  logo------------*/
 .logo {
-  width :50%;
+  /* font-family:"Trebuchet_MS";
+  width :50%; */
   min-height: 100px;
   /* background-image: url("../images/fnlogoblanc.svg");
   background-repeat: no-repeat; */
@@ -165,16 +171,17 @@ animation-fill-mode: forwards;
 /* ----------- DEBUT compte utilisateur---------------------->*/
 
 .compte{
-  width:20%;
-  margin-top:1%;
+  /* width:20%;
+  margin-top:1%; */
 }
 
 .compte a:first-child{
   float: left;
+  paddin
 }
 .compte a:last-child{
-  float: right;
-  padding-right :10%;
+  /* float: right; */
+  /* padding-right :10%; */
 }
 
 /*       ****************************
