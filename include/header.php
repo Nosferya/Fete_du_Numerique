@@ -16,15 +16,16 @@
         <a href="./contact">Contact</a>
       </div>
 
-      <div class ="programme animated flip delay-5s slower">
+      <div class ="programme ">
         <a  href="./programme ">Programme</a>
       </div>
       <div class = "logo">
-        <a  href="./accueil"><img src="images/fnlogoblanc.svg" class="resize"</a>
+        <a  href="./accueil">
+        <!-- <img src="images/fnlogoblanc.svg" class="resize"></a> -->
       </div>
-      <div class = "compte">
-        <a href="./formulaire_inscription">S'inscrire</a>
-        <a href="./formulaire_connexion"><i class="fa fa-user"></i></a>
-      </div>
+
+      <div class= "cpt_inscrip"><a href="./formulaire_inscription">S'inscrire</a></div>
+      <div class="cpt_connect"><a href="./formulaire_connexion"><i class="fa fa-user"></i></a></div>
+
 
     </header>

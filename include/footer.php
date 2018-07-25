@@ -22,17 +22,17 @@
   <div class="footer-center">
 
     <div>
-      <i class="fa fa-map-marker"></i>
+      <i class="fa fa-map-marker" id="marker"></i>
       <p><span>18 Avenue Georges Corneau</span> Charleville-Mézières, France</p>
     </div>
 
     <div>
-      <i class="fa fa-phone"></i>
+      <i class="fa fa-phone" id="phone"></i>
       <p>03 24 56 62 62</p>
     </div>
 
     <div>
-      <i class="fa fa-envelope"></i>
+      <i class="fa fa-envelope" id="envelope"></i>
       <p><a href="mailto:lafetedunumérique@company.com">lafetedunumérique@company.com</a></p>
     </div>
 
@@ -46,10 +46,9 @@
 
     <div class="footer-icons">
 
-      <a href="#"><i class="fab fa-facebook"></i></a>
-      <a href="#"><i class="fab fa-twitter"></i></a>
-      <a href="#"><i class="fab fa-linkedin"></i></a>
-      <a href="#"><i class="fab fa-github"></i></a>
+      <a href="#"><i id="fb" class="fab fa-facebook"></i></a>
+      <a href="#"><i id="tw" class="fab fa-twitter"></i></a>
+      <a href="#"><i id="lkd" class="fab fa-linkedin"></i></a>
 
     </div>
 

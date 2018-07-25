@@ -29,34 +29,34 @@
             <legend>Inscription</legend>
             <label for="type">Vous êtes :</label><br>
             <select name="type" id="type" required>
-                    <option value="1">Un visiteur</option>
+                    <option value="1" selected>Un visiteur</option>
                     <option value="2">Un exposant</option>
             </select><br>
-            <label for="r_sociale">Raison sociale : </label>
-            <input type="text" name="r_sociale" id="r_sociale"><br>
-            <label for="siret">Siret : </label>
-            <input type="text" name="siret" id="siret"><br>
-            <span>Titre : </span>
-            <input type="radio" name="titre" value="Mme" id="F" required/><label for="F" class="notmarge">Mme</label>
-            <input type="radio" name="titre" value="M" id="M" required/><label for="M" class="notmarge">M</label><br>
-            <label for="nom">Nom : </label>
-            <input type="text" name="nom" id="nom" required><br>
-            <label for="prenom">Prenom : </label>
-            <input type="text" name="prenom" id="prenom" required><br>
-            <label for="tel">Téléphone : </label>
-            <input type="tel" name="tel" id="tel"><br>
+            <label for="r_sociale" class="expo1">Raison sociale : </label>
+            <input type="text" name="r_sociale" id="r_sociale" class="expo1"><br>
+            <label for="siret" class="expo1">Siret : </label>
+            <input type="text" name="siret" id="siret" class="expo1"><br>
+            <span class="expo1">Titre : </span>
+            <input type="radio" name="titre" value="Mme" id="F" class="expo1" required/><label for="F" class="notmarge expo1">Mme</label>
+            <input type="radio" name="titre" value="M" id="M" class="expo1" required/><label for="M" class="notmarge expo1">M</label><br>
+            <label for="nom" class="expo1">Nom : </label>
+            <input type="text" name="nom" id="nom" class="expo1" required><br>
+            <label for="prenom" class="expo1">Prenom : </label>
+            <input type="text" name="prenom" id="prenom" class="expo1" required><br>
+            <label for="tel"class="expo1">Téléphone : </label>
+            <input type="tel" name="tel" class="expo1" id="tel"><br>
             <label for="email">Email : </label>
             <input type="email" name="email" id="email" required><br>
-            <label for="ad_user">Adresse : </label>
-            <input type="text" name="ad_user" id="ad_user" required><br>
+            <label for="ad_user" class="expo1">Adresse : </label>
+            <input type="text" name="ad_user" id="ad_user" class="expo1" required><br>
             <label for="mdp1">Mot de passe : </label>
             <input type="password" name="mdp1" id="mdp1" required><br>
             <label for="mdp2">Confirmer mot de passe : </label>
             <input type="password" name="mdp2" id="mdp2" required><br>
 
 
-            <input type="submit" value="S'INSCRIRE">
-            <input type="reset" value="RESET">
+            <input type="submit"  class="subconn"value="S'INSCRIRE">
+            <input type="reset" class="subconn" value="RESET">
           </fieldset>
         </form>
       </div>

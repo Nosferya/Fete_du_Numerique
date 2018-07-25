@@ -34,6 +34,7 @@ fieldset {
 
 legend {
     font-size: 3rem;
+    margin-bottom: 15px;
 }
 
 label:not(.notmarge) {
@@ -66,16 +67,14 @@ input[type="radio"] {
     font-size: 1.5rem;
 }
 
-
-
 input[type="submit"],
 input[type="reset"] {
-    width: 200px;
-    height: 60px;
+    width: 180px;
+    height: 50px;
     border-radius: 5px;
     margin-left: 15%;
-    color: black;
-    font-size: 1.5rem;
+    color: white;
+    font-size: 1.7rem;
 }
 
 span {
@@ -97,6 +96,7 @@ p {
   margin-bottom: 100px;
   margin-top: 150px;
 }
+
 
 @media screen and (max-width: 800px) {
   fieldset {
