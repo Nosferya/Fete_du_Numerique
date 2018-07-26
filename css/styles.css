@@ -28,12 +28,13 @@ header {
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  /* height: 20%; */
   background-color: #051821;
   font-size: 2.5rem;
-  padding-top:20px;
+  padding-top:1%;
+  padding-bottom: 1%;
   position: fixed;
   z-index:10;
+  box-shadow: 0 0 11px 12px #000;
 }
 
 header div{
@@ -47,6 +48,9 @@ header a {
 }
 
 /*---------------------------BOUTON BURGER------------------------*/
+.menu{
+
+}
 
 .bar1, .bar2, .bar3 {
     width: 35px;
@@ -136,12 +140,13 @@ animation-fill-mode: forwards;
 
 /*<-------------------DEBUT  logo------------*/
 .logo {
-  background-image:  url("../images/fnlogoblanc.svg");
+  /* background-image:  url("../images/logo.png");
   background-repeat:no-repeat;
   background-size: auto;
   min-height: 100px;
-  width:30%;
-  margin-right:7%;
+
+  margin-right:7%; */
+    width:18%;
 }
 
  .resize{
@@ -153,6 +158,10 @@ animation-fill-mode: forwards;
 
 
 /* ----------- DEBUT compte inscrip / connect---------------------->*/
+#bouton:hover{
+
+}
+
 .programme a:hover,
 .cpt_inscrip a:hover
 {
@@ -160,7 +169,7 @@ animation-fill-mode: forwards;
   border-radius: 50px;
   padding:2%;
 }
-
+#bouton:hover,
 .cpt_connect:hover{
   animation: flip 2s;
 }
@@ -295,7 +304,7 @@ width: 29%;
 color: white;
 font-size: 1.6rem;
 margin-top: 13%;
-margin-left: 31%;
+margin-left: 36%;
 background-color: black;
 padding: 40px;
 top:0;
@@ -742,8 +751,7 @@ footer img {
 
       .messagevalid a{
         font-size:1.8rem;
-
-        margin:0 auto;
+        margin:1% auto;
       }
 
 /*********************************************************
