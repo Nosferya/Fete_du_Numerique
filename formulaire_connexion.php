@@ -28,10 +28,10 @@
       <form method="post" action="account.php">
         <fieldset>
           <legend>Connexion</legend>
-          <label for="mail">Email : </label>
-          <input type="email" name="mail" id="mail" placeholder="Entrez votre adresse email" required><br>
+          <label for="mail">Pseudo : </label>
+          <input type="text" name="pseudo" id="pseudo"  required><br>
           <label for="mdpi">Mot de passe : </label>
-          <input type="password" name="mdpi" id="mdpi" placeholder="Entrez votre mot de passe" required><br>
+          <input type="password" name="mdpi" id="mdpi"  required><br>
           <input type="submit" class="subconn" value="SE CONNECTER">
         </fieldset>
       </form>
