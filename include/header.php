@@ -19,11 +19,9 @@
       <div class ="programme ">
         <a  href="./programme ">Programme</a>
       </div>
-    
-         <a  class="logo" href="./accueil">
-         </a>
 
-        <!-- <img src="images/fnlogoblanc.svg" class="resize"> -->
+         <a  class="logo" href="./accueil">
+           <img src="images/logo.png" class="resize"></a>
 
 
       <div class= "cpt_inscrip"><a href="./formulaire_inscription">S'inscrire</a></div>
