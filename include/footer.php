@@ -33,7 +33,7 @@
 
     <div>
       <i class="fa fa-envelope" id="envelope"></i>
-      <p><a href="mailto:lafetedunumérique@company.com">lafetedunumérique@company.com</a></p>
+      <p><a href="mailto:lafetedunumérique@company.com">lafetedunumerique@company.com</a></p>
     </div>
 
   </div>

@@ -730,8 +730,9 @@ footer img {
 *                          GENERATION EVENEMENT          *
 **********************************************************/
       .messagevalid{
-      
+
         margin-top:15%;
+        margin-bottom:5%;
         font-size:2rem;
         color:#f1f1f1f1;
         text-align:center;
@@ -807,6 +808,11 @@ footer img {
       margin: auto;
       margin-top: 20px;
     }
+
+    .footer-distributed .footer-center p{
+      font-size: 1.4rem;
+    }
+
     .mapaccueil {
       flex-direction: column;
       align-items: center;
