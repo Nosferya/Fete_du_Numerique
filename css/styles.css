@@ -730,17 +730,18 @@ footer img {
 *                          GENERATION EVENEMENT          *
 **********************************************************/
       .messagevalid{
-        height:150px;
-        margin-top:10%;
+      
+        margin-top:15%;
         font-size:2rem;
         color:#f1f1f1f1;
         text-align:center;
-        line-height: 50px;
+        line-height: 46px;
+        max-width:100%;
       }
 
       .messagevalid a{
         font-size:1.8rem;
-        
+
         margin:0 auto;
       }
 
