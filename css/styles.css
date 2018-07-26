@@ -48,9 +48,6 @@ header a {
 }
 
 /*---------------------------BOUTON BURGER------------------------*/
-.menu{
-
-}
 
 .bar1, .bar2, .bar3 {
     width: 35px;
@@ -121,9 +118,7 @@ animation-fill-mode: forwards;
 
   .sidenav a:hover
   {
-    box-shadow: 0px 0px 5px 5px #fff;
-    border-radius: 50px;
-    padding:2%;
+
   }
 
  @media screen and (max-height: 250px) {
@@ -137,16 +132,103 @@ animation-fill-mode: forwards;
 /*<-------------------FIN menu déroulant--------------------->*/
 
 /*<------------------programme--------------------->*/
+.programme::before {
+  -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-box-shadow: #959595 0 2px 5px;
+    -moz-box-shadow: #959595 0 2px 5px;
+    border-radius: 3px;
+    box-shadow: #959595 0 2px 5px;
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    padding: 2px 0 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.programme:active::before{ padding: 1px 0 0; }
+
+.programme {
+  -moz-box-shadow: inset 0 0 0 1px #63ad0d;
+    -webkit-box-shadow: inset 0 0 0 1px #63ad0d;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    background: #eee;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#eee), to(#e2e2e2));
+    background: -moz-linear-gradient(#eee, #e2e2e2);
+    background: linear-gradient(#eee, #e2e2e2);
+    box-shadow: inset 0 0 0 1px #f5f5f5;
+    color: white;
+    display: inline-block;
+    font: bold 12px Arial, Helvetica, Clean, sans-serif;
+    margin: 0 25px 25px 0;
+    padding: 10px 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    text-shadow: 0 1px 0 #fafafa; }
+}
+
+
+.programme:active {
+  background: #dfdfdf;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#dfdfdf), to(#e3e3e3));
+    background: -moz-linear-gradient(#dfdfdf, #e3e3e3);
+    background: linear-gradient(#dfdfdf, #e3e3e3);
+    box-shadow: inset 0 10px 15px 0 #c4c4c4;
+    top:2px;
+}
+
+.programme {
+  background: -webkit-gradient(linear, 0 0, 0 bottom, from(#656565), to(#444));
+  background: -moz-linear-gradient(#656565, #444);
+  background: linear-gradient(#656565, #444);
+  box-shadow: inset 0 0 0 1px #939393;
+  color: white;
+  text-shadow: 0 1px 0 #2f2f2f;
+}
+
+.programme:hover {
+  background: #4c4c4c;
+  background: -webkit-gradient(linear, 0 0, 0 bottom, from(#4c4c4c), to(#565656));
+  background: -moz-linear-gradient(#4c4c4c, #565656);
+  background: linear-gradient(#4c4c4c, #565656);
+  box-shadow: inset 0 0 0 1px #818181;
+}
+
+.programme:active{
+  background: #474747;
+  background: -webkit-gradient(linear, 0 0, 0 bottom, from(#474747), to(#444));
+  background: -moz-linear-gradient(#474747, #444);
+  background: linear-gradient(#474747, #444);
+  box-shadow: inset 0 10px 15px 0 #3e3e3e;
+}
+
+
+.programme {
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+  outline: 1px solid;
+  outline-color: #fff;
+  outline-offset: 0px;
+  text-shadow: none;
+  border-radius: 0;
+  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.programme:hover {
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #427388;
+}
 
 /*<-------------------DEBUT  logo------------*/
 .logo {
-  /* background-image:  url("../images/logo.png");
-  background-repeat:no-repeat;
-  background-size: auto;
-  min-height: 100px;
-
-  margin-right:7%; */
-    width:18%;
+  width:18%;
 }
 
  .resize{
@@ -158,18 +240,14 @@ animation-fill-mode: forwards;
 
 
 /* ----------- DEBUT compte inscrip / connect---------------------->*/
-#bouton:hover{
 
-}
-
-.programme a:hover,
 .cpt_inscrip a:hover
 {
   box-shadow: 0px 0px 5px 5px #fff;
   border-radius: 50px;
   padding:2%;
 }
-#bouton:hover,
+
 .cpt_connect:hover{
   animation: flip 2s;
 }
@@ -493,10 +571,9 @@ h3 {
 
 
 .subconn {
-  border: 0 solid;
   box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
   outline: 1px solid;
-  outline-color: #656565;
+  outline-color: #fff;
   outline-offset: 0px;
   text-shadow: none;
   border-radius: 0;
@@ -504,7 +581,6 @@ h3 {
 }
 
 .subconn:hover {
-  border: 1px solid;
   box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
   outline-color: rgba(255, 255, 255, 0);
   outline-offset: 15px;
