@@ -19,10 +19,12 @@
       <div class ="programme ">
         <a  href="./programme ">Programme</a>
       </div>
-      <div class = "logo">
-        <a  href="./accueil">
-        <!-- <img src="images/fnlogoblanc.svg" class="resize"></a> -->
-      </div>
+    
+         <a  class="logo" href="./accueil">
+         </a>
+
+        <!-- <img src="images/fnlogoblanc.svg" class="resize"> -->
+
 
       <div class= "cpt_inscrip"><a href="./formulaire_inscription">S'inscrire</a></div>
       <div class="cpt_connect"><a href="./formulaire_connexion"><i class="fa fa-user"></i></a></div>

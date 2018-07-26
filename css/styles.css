@@ -43,10 +43,8 @@ header div{
 header a {
   text-decoration: none;
   color: #f1f1f1;
-
+  outline:none;
 }
-
-
 
 /*---------------------------BOUTON BURGER------------------------*/
 
@@ -73,9 +71,7 @@ header a {
 
 /*<-------------------DEBUT menu déroulant--------------------->*/
 
-.menu:hover{
-    animation: flip 4s;
-}
+
 .sidenav {
   height: 100%;
   width: 0%;
@@ -145,7 +141,7 @@ animation-fill-mode: forwards;
   background-size: auto;
   min-height: 100px;
   width:30%;
-  margin-right:-15%;
+  margin-right:7%;
 }
 
  .resize{
@@ -166,7 +162,7 @@ animation-fill-mode: forwards;
 }
 
 .cpt_connect:hover{
-  animation: flip 5s;
+  animation: flip 2s;
 }
 
 /*       ****************************
@@ -730,6 +726,27 @@ footer img {
 *                          FIN FOOTER                    *
 **********************************************************
 
+/*********************************************************
+*                          GENERATION EVENEMENT          *
+**********************************************************/
+      .messagevalid{
+        height:150px;
+        margin-top:10%;
+        font-size:2rem;
+        color:#f1f1f1f1;
+        text-align:center;
+        line-height: 50px;
+      }
+
+      .messagevalid a{
+        font-size:1.8rem;
+        
+        margin:0 auto;
+      }
+
+/*********************************************************
+*                      fin GENERATION EVENEMENT          *
+**********************************************************
 
 /*********************************************************
 ------------partie media queries responsive------------- *
@@ -750,14 +767,15 @@ footer img {
   }
 
   .programme,
-  .compte{
+  .compte,
+  .logo{
     display:none;
   }
 
-  .logo{
+   /* .logo{
     width:100%;
     margin-left: 10%
-  }
+  } */
 
   @keyframes slideleft{
     100% {width: 90%;}
@@ -827,5 +845,9 @@ footer img {
 
   .ci img:first-child {
   height: 700px;
+  }
+
+  .logo{
+    display:none;
   }
 }
