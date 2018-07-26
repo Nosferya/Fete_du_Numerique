@@ -101,6 +101,23 @@ p {
   margin-top:150px;
 }
 
+#forgotten {
+  text-decoration: none;
+  outline: none;
+}
+
+.forgotpw {
+  text-decoration: none;
+  margin-left: 4%;
+  font-size: 1.8rem;
+  color:white;
+}
+
+.forgotpw:hover{
+  text-decoration: underline;
+  color:#2a5474;
+}
+
 @media screen and (max-width: 800px) {
   fieldset {
     width: 80%;

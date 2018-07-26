@@ -23,7 +23,7 @@
   <!-- </header> -->
 
   <main>
-    <?php include ("include/socialbar.php") ?>
+    <?php include("include/socialbar.php") ?>
     <!--CHAMP FORMULAIRE-->
     <section class="marginB">
       <form method="post" action="account.php">
@@ -33,6 +33,7 @@
           <input type="text" name="pseudo" id="pseudo"  required><br>
           <label for="mdpi">Mot de passe : </label>
           <input type="password" name="mdpi" id="mdpi"  required><br>
+          <a href="#" class="forgotpw"> Mot de passe oublié</a> 
           <input type="submit" class="subconn" value="SE CONNECTER">
         </fieldset>
       </form>
