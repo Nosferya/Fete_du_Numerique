@@ -629,14 +629,14 @@ footer img {
 }
 
 #marker:hover {
-  color:red;
+  color:#bf2c20;
 }
 
 #phone:hover{
-  color:green;
+  color:#00ad5f;
 }
 #envelope:hover{
-  color:blue;
+  color:#438cc3;
 }
 
 .footer-distributed .footer-center p {
