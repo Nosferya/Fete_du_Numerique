@@ -69,6 +69,7 @@ input[type="reset"] {
     color: white;
     font-size: 1.7rem;
     float: right;
+    margin-top:15px;
 }
 
 
@@ -111,12 +112,28 @@ p {
   margin-left: 4%;
   font-size: 1.8rem;
   color:white;
+  margin-top:35px;
+  display:inline-flex;
+  font-weight: bold;
 }
+
 
 .forgotpw:hover{
   text-decoration: underline;
-  color:#2a5474;
-}
+  animation:nom_anim_bouton1 1s infinite alternate
+
+  	}
+
+
+  @keyframes nom_anim_bouton1{
+  from{
+  	text-shadow: :0 0 5px #46a1bc
+  	}
+  to{
+  	text-shadow:0 0 15px #55acee
+  	}
+  	}
+
 
 @media screen and (max-width: 800px) {
   fieldset {

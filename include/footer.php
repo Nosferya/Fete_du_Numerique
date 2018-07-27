@@ -2,7 +2,7 @@
 
   <div class="footer-left">
 
-    <img src="images/fnlogoblanc.svg" alt="logo">
+    <img src="images/logo.png" alt="logo">
 
     <p class="footer-links">
       <a href="./accueil">Accueil</a> ·

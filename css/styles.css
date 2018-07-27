@@ -386,7 +386,7 @@ margin-left: 36%;
 background-color: black;
 padding: 40px;
 top:0;
-box-shadow: 0 0 10px 10px black;
+border: 2px ridge;
 background-color: #051821;
 
 }
@@ -433,7 +433,13 @@ background-color: #051821;
     text-align: center;
     /* max-width: 100%; */
     height: auto!important;
+    -webkit-transition: all 0.5s ease-out; /*compatibilité chrome*/
+     -moz-transition: all 0.5s ease-out; /*compatibilité firefox*/
+     -o-transition: all 0.5s ease-out; /*compatibilité opéra*/
+     transition: all 0.5s ease-out; /* Autre navigateur */
   }
+
+
 
   .evenement p {
       text-align: center;
@@ -668,7 +674,7 @@ footer img {
 .footer-links a::before {
     content: '';
     position: absolute;
-    top: calc(100% + 5px);
+    top: calc(100%);
     width: 0;
     right: 0;
     height: 3px;
@@ -676,12 +682,12 @@ footer img {
 
 .footer-links a::before {
     transition: width .4s cubic-bezier(0.51, 0.18, 0, 0.88) .1s;
-    background: #2196f3;
+    background: #498fba;
   }
 
 .footer-links a::after {
     transition: width .2s cubic-bezier(0.29, 0.18, 0.26, 0.83);
-    background: #F44336;
+    background: #c1341a;
   }
 
 .footer-distributed .footer-company-name {
@@ -789,11 +795,6 @@ footer img {
   line-height: 35px;
   margin-right: 3px;
   margin-bottom: 5px;
-}
-
-.footer-icons i:hover{
-  -webkit-animation: rubberBand 1s;
-    animation: rubberBand 1s;
 }
 
 .footer-icons a:hover{
