@@ -3,9 +3,11 @@
   padding: 0;
   margin: 0;
 }
+
 body{
   overflow: hidden;
 }
+
 a{
   color: white;
   text-decoration: none;
@@ -18,11 +20,13 @@ a{
   width: 100%;
   position: absolute;
 }
+
 .logo{
-  z-index: 1;
-top: 47%;
-position: absolute;
-left: 35%;
+ z-index: 1;
+ position: absolute;
+ top: 40%;
+ left: 21%;
+ width:58%;
 }
 
 .couche1{
@@ -37,7 +41,6 @@ left: 35%;
 position: absolute;
 width: 100%;
 }
-
 
 .carre, .barre, .fn, .cm, .year{
   transition: all 2.7s;
