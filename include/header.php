@@ -1,6 +1,6 @@
   <header>
-      <div class="menu" onclick="changeX(this)">
-       <div class ="bouton" id="bouton" >
+      <div class="menu" >
+       <div class ="bouton" id="bouton" onclick="changeX(this)" >
             <p class="bar1"></p>
             <p class="bar2"></p>
             <p class="bar3"></p>
@@ -16,8 +16,8 @@
         <a href="./contact">Contact</a>
       </div>
 
-      <div class ="programme ">
-        <a  href="./programme ">Programme</a>
+      <div >
+        <a  href="./programme">Programme</a>
       </div>
 
          <a  class="logo" href="./accueil">

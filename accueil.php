@@ -31,16 +31,22 @@
 	<!-- PARTIE PRESENTATION -->
 	<section class="ci">
 		<div class="pres">
-			<img src="images/bgaccueil.jpg" alt="">
-			<p class="animated lightSpeedIn">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-				dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<div id="layer">
+				<img src="images/fondcouleur.jpg" alt="" height="1100vh" >
+				<div id="object1">
+					<img src="images/couche3.png" alt="" class="couche3" >
+				</div>
+					<img src="images/couche2.png" alt="" class="couche2" height="1100vh">
+				<p class="animated lightSpeedIn">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+					dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<img src="images/ombre_place.png" alt="" class="ombreplace">
+			</div>
 		</div>
-
-	<img src="images/ombre_place.png" alt="" class="ombreplace">
 	</section>
 	<!-- FIN PARTIE PRESENTATION -->
 
 	<!-- PARTIE EVENEMENT -->
+<div class="contenu">
 	<section class="evenement">
 		<div class="conf">
 			<img class="pict" src="images/conf.png">
@@ -83,9 +89,12 @@
 		</div>
 		<!-- FIN PARTIE INFO PRATIQUES -->
 	</section>
+		<?php include('include/footer.php')?>
+</div>
+
 </main>
 	<!-- FOOTER -->
-	<?php include('include/footer.php')?>
+
 	<!-- FOOTER -->
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
