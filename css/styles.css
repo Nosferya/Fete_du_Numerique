@@ -318,7 +318,6 @@ header a {
 .evenement .conf, .evenement .expo, .evenement .anim {
   width: 29%;
   margin: auto;
-  background-color: #4473DB;
   text-align: center;
   /* max-width: 100%; */
   height: auto !important;
@@ -343,6 +342,18 @@ header a {
 .evenement .pict {
   max-width: 100%;
   height: auto !important;
+}
+
+.conf {
+  background-color: #e7b171
+}
+
+.expo {
+  background-color: #78a5c1;
+}
+
+.anim{
+  background-color: #a87cc9;
 }
 
 .conf:hover, .expo:hover, .anim:hover {
