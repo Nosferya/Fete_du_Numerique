@@ -26,7 +26,7 @@
       <fieldset>
         <legend>Formulaire de contact</legend>
         <p>Tous les champs sont obligatoires</p>
-        <span>Titre : </span>
+        
         <input type="radio" name="titre" value="Mme" id="F" required/><label for="F" class="notmarge">Mme</label>
         <input type="radio" name="titre" value="M" id="M" required/><label for="M" class="notmarge">M</label><br>
         <label for="fname"> Nom : </label><br><input type="text" name="fname" id="fname" class="txtinput" placeholder="Votre nom" required/><br>

@@ -17,26 +17,27 @@ html, body {
 }
 
 .infopratique{
-  display: flex;
-  margin: 10% 5%;
+  margin:15% 8% 5% 8%;
 }
 
-.descriptif {
-  max-width: 50%;
-  height:500px;
-  border : 1px solid red;
-}
-
-.carte{
-  max-width:50%;
-  border : 1px solid green;
-}
-
-.picto{
-  margin: 5% 0 5% 20%;
-}
-
-.picto i{
+ .picto i{
   font-size: 30px;
-  margin:0 10%;
+}
+
+.picto li{
+  margin:2%;
+}
+
+.infopratique h4{
+  margin-top:2%;
+  margin-bottom:0;
+}
+
+@media screen and (max-width :800px) {
+  .infopratique {
+    margin-top:20%;
+    }
+  .picto i{
+   font-size: 25px;
+   }
 }
