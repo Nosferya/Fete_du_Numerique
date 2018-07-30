@@ -74,15 +74,8 @@ input[type="submit"],
 input[type="reset"] {
     width: 200px;
     height: 60px;
-    border-radius: 5px;
     margin-left: 15%;
-    color: black;
     font-size: 2rem;
-}
-
-span {
-    font-size: 2rem;
-    margin-left:4%;
 }
 
 p {

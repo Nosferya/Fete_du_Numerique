@@ -34,8 +34,8 @@
         <label for="sujet"> Sujet de la demande : </label><br><input type="text" name="sujet" id="sujet" class="txtinput" placeholder="le sujet de votre demande" required/><br>
         <label for="detail">Votre demande concerne : </label><br>
         <textarea name="detail" id="detail" required></textarea><br><br>
-        <input type="submit" value="ENVOYER">
-        <input type="reset" value="RESET">
+        <input type="submit" class="subconn" value="ENVOYER">
+        <input type="reset" class="subconn" value="RESET">
       </fieldset>
     </form>
   </section>
