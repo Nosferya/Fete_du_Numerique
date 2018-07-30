@@ -16,13 +16,13 @@
         <a href="./contact">Contact</a>
       </div>
 
-      <div >
+      <div class="programme">
         <a  href="./programme">Programme</a>
       </div>
 
-         <a  class="logo" href="./accueil">
-           <img src="images/logo.png" class="resize"></a>
-
+       <a  class="logo" href="./accueil">
+         <img class= "logo1" src = "images/logo.png" class="resize"></a>
+          <a  class="logonavmob" href="./accueil"><img  src = "images/logonavmob.png" class="resize"></a>
 
       <div class= "cpt_inscrip"><a href="./formulaire_inscription">S'inscrire</a></div>
       <div class="cpt_connect"><a href="./formulaire_connexion"><i class="fa fa-user"></i></a></div>
