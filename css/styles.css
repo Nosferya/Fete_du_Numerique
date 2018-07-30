@@ -736,11 +736,12 @@ footer img {
   }
   .footer-distributed {
     font: bold 1.4rem sans-serif;
-    position: inherit;
+    /* position: inherit; */
   }
   footer img {
     width: 100%;
   }
+
   .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
     display: block;
     width: 100%;
