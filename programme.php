@@ -28,16 +28,27 @@
 
     <!-- PARTIE SANGLIER -->
     <section class="ci">
-      <div class="pres">
-        <img src="images/bgaccueil.jpg" alt="">
+      <div class="sanglier">
+        <div class="pres">
+    			<div id="layer">
+    				<img src="images/fondcouleur.jpg" alt="" height="1100vh" >
+    				<div id="object1">
+    					<img src="images/couche3.png" alt="" class="couche3" >
+    				</div>
+    					<img src="images/couche2.png" alt="" class="couche2" height="1100vh">
+    					<img src="images/ombre_sanglier.png" alt="" class="ombreplace">
+    			</div>
+    		</div>
       </div>
-      <img src="images/ombre_sanglier.png" alt="" class="ombreplace">
-    </section>
+  	</section>
     <!-- FIN PARTIE SANGLIER-->
 
  <!--*********************************** CORPS PRINCIPAL -->
 
     <main class= "listeprogr">
+      <div class="contenu">
+
+
             <h3><span class="maj">C</span>onférence</h3>
       <div class="container">
         <div class="row">
@@ -230,11 +241,12 @@
             </div>
           </div>
         </div>
-
+          <?php include('include/footer.php')?>
+      </div>
     </main>
 
     <!-- FOOTER -->
-    <?php include('include/footer.php')?>
+
     <!-- FOOTER -->
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

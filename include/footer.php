@@ -21,18 +21,18 @@
 
   <div class="footer-center">
 
-    <div>
-      <i class="fa fa-map-marker" id="marker"></i>
+    <div id="marker">
+      <i class="fa fa-map-marker" ></i>
       <p><span>18 Avenue Georges Corneau</span> Charleville-Mézières, France</p>
     </div>
 
-    <div>
-      <i class="fa fa-phone" id="phone"></i>
+    <div id="phone">
+      <i class="fa fa-phone" ></i>
       <p>03 24 56 62 62</p>
     </div>
 
-    <div>
-      <i class="fa fa-envelope" id="envelope"></i>
+    <div id="envelope">
+      <i class="fa fa-envelope" ></i>
       <p><a href="mailto:lafetedunumérique@company.com">lafetedunumerique@company.com</a></p>
     </div>
 
