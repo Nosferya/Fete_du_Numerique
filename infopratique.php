@@ -78,13 +78,12 @@
   <?php include('include/footer.php')?>
   <!-- FOOTER -->
 
-
-	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-	    <script type="text/javascript" src="http://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-	    <!-- <script src="js/parallax.min.js"></script> -->
-	    <script src="js/scripts.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="js/parallax.min.js"></script>
+  <script src="js/scripts.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,286 @@
+.mainint {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    margin-top:10%;
+    margin-bottom:5%;
+    margin-left: 0.5%;
+    font-size:1.5rem;
+}
+
+.menuuser {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.intuser {
+    width: calc(100% - 200px);
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #333333;
+    padding-left: 10px;
+}
+
+.menubtn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    transition-property: text-shadow;
+    transition-property: box-shadow;
+    transition-duration: 1.5s;
+    cursor: pointer;
+    font-size:1.5rem;
+}
+
+.menubtn:hover {
+    text-shadow: #1d69cb 0 0 15px;
+    box-shadow: #498fba 0 0 15px;
+}
+
+.head {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 2rem !important;
+}
+
+.urgent {
+    color: #FF0000;
+}
+
+.MVN {
+    background-color: #0A0A0A;
+    border: none;
+    border-bottom: 1px solid #333333;
+    width: 100px;
+    height: 50px;
+    font-size: 1.2rem;
+}
+
+.MVN:focus {
+    background-color: #161616;
+}
+
+#confirmer {
+    width: 150px;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 5px;
+    transition-property: text-shadow;
+    transition-property: box-shadow;
+    transition-duration: 1.5s;
+    background-color: #0A0A0A;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#valider:hover {
+    background-color: #000000;
+    text-shadow: #00FFFF 0 0 15px;
+    box-shadow: #00FFFF 0 0 15px;
+}
+
+#suppr {
+    width: 150px;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 5px;
+    transition-property: text-shadow;
+    transition-property: box-shadow;
+    transition-duration: 1.5s;
+    background-color: #0A0A0A;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#suppr:hover {
+    background-color: #000000;
+    text-shadow: #00FFFF 0 0 15px;
+    box-shadow: #00FFFF 0 0 15px;
+}
+
+.gestint {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+.cell {
+    height: 50px;
+    border-top: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    text-align: center;
+    font-size:1.5rem;
+}
+
+.inf {
+    border-left: 1px solid #333333;
+    border-right: 1px solid #333333;
+}
+
+.mod {
+    border-right: 1px solid #333333;
+    padding-left: 0;
+}
+
+.none {
+    border: none;
+}
+
+.val {
+    border: 1px solid #333333;
+    padding-left: 0;
+}
+
+.ob {
+    color: #FF0000;
+}
+
+.op {
+    color: #777777;
+}
+
+.creeevent {
+    width: 90%;
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: 200px auto;
+}
+
+.visuevent {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 150px 150px auto 150px 150px 100px;
+}
+
+.visuevent2 {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 150px 150px auto 150px 150px 50px 50px;
+}
+
+
+.r,
+.j,
+.v{
+  text-align: center;
+}
+
+.r {
+    color: red;
+}
+
+.j {
+    color: yellow;
+}
+
+.v {
+    color: green;
+}
+
+.double {
+    height: 100px;
+}
+
+.quad {
+    height: 200px;
+}
+
+.text,
+.nmod {
+    padding-left: 10px;
+    background-color: #161616;
+    border: none;
+    width: calc(100% - 10px);
+    height: 50px;
+}
+
+.sel {
+    padding-left: 10px;
+    background-color: #161616;
+    border: none;
+    width: 100%;
+    height: 50px;
+}
+
+.textarea {
+    padding-left: 10px;
+    background-color: #161616;
+    border: none;
+    width: calc(100% - 10px);
+    height: 100px;
+}
+
+.textarea2 {
+    padding-left: 10px;
+    background-color: #161616;
+    border: none;
+    width: calc(100% - 10px);
+    height: 200px;
+}
+
+.btn {
+    /*padding-left: 10px;*/
+    background-color: #000000;
+    border: none;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.btn2 {
+    /*padding-left: 10px;*/
+    background-color: #0A0A0A;
+    border: none;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.text:focus,
+.sel:focus,
+.textarea:focus .nmod:hover {
+    background-color: #262626;
+    font-size: 1.2rem;
+}
+
+.icon {
+    font-size: 40px;
+    transition-property: text-shadow;
+    transition-duration: 1.5s;
+    color:#000;
+}
+
+.icon2 {
+    font-size: 35px;
+    transition-property: text-shadow;
+    transition-duration: 1.5s;
+    cursor: pointer;
+}
+
+.icon:hover,
+.icon2:hover {
+    text-shadow: #00FFFF 0 0 15px;
+}
+
+.gestuser {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 150px auto 150px 50px;
+}

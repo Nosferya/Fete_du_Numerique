@@ -1,20 +1,20 @@
 <?php
-	//session_start ();
+	session_start ();
 ?>
  <?php
-// //$host_name = 'db745063345.db.1and1.com';
-// $database = 'db745063345';
-// $user_name = 'dbo745063345';
-// $password = '#Clement020';
+$host_name = 'db745063345.db.1and1.com';
+$database = 'db745063345';
+$user_name = 'dbo745063345';
+$password = '#Clement020';
 
-// $dbh = null;
-// try {
-//   $dbh = new PDO("mysql:host=$host_name; dbname=$database;", $user_name, $password);
-//   $dbh->exec("SET CHARACTER SET utf8");
-// } catch (PDOException $e) {
-//   echo "Erreur!: " . $e->getMessage() . "<br/>";
-//   die();
-// }
+$dbh = null;
+try {
+  $dbh = new PDO("mysql:host=$host_name; dbname=$database;", $user_name, $password);
+  $dbh->exec("SET CHARACTER SET utf8");
+} catch (PDOException $e) {
+  echo "Erreur!: " . $e->getMessage() . "<br/>";
+  die();
+}
 ?>
 
 <!DOCTYPE HTML>
@@ -46,31 +46,31 @@
     <main>
          <?php
 
-            // $name = $_POST['name'];
-            // $id = $_POST['id'];
-            // $type = $_POST['type'];
-            // $info = $_POST['info'];
-            // $duree = $_POST['duree'];
-            // $place = $_POST['place'];
-            // $comp = $_POST['comp'];
-            // $nbr = 0;
-            // $status = 1;
-            // $refus = '';
-						//
-            // if ($place ==''){
-            //     $place = 0;
-            // } else if ($place <0){
-            //     $place = 0;
-            // } else if ($place >100) {
-            //     $place = 100;
-            // } else if ($place >=0 && $place <=100){
-            //     $place = $place ;
-            // } else {
-            //     $place = 0;
-            // }
+            $name = $_POST['name'];
+            $id = $_POST['id'];
+            $type = $_POST['type'];
+            $info = $_POST['info'];
+            $duree = $_POST['duree'];
+            $place = $_POST['place'];
+            $comp = $_POST['comp'];
+            $nbr = 0;
+            $status = 1;
+            $refus = '';
+
+            if ($place ==''){
+                $place = 0;
+            } else if ($place <0){
+                $place = 0;
+            } else if ($place >100) {
+                $place = 100;
+            } else if ($place >=0 && $place <=100){
+                $place = $place ;
+            } else {
+                $place = 0;
+            }
 
 
-            /*$req = $dbh->prepare('INSERT INTO evenement(titre_event, responsable_event, descriptif_event, type_event, info_duree, nbplacesou, nbplaceres, status, raisonrefus, infocomp) VALUES(:name, :id, :info, :type, :duree, :place, :nbr, :status, :refus, :comp)');
+            $req = $dbh->prepare('INSERT INTO evenement(titre_event, responsable_event, descriptif_event, type_event, info_duree, nbplacesou, nbplaceres, status, raisonrefus, infocomp) VALUES(:name, :id, :info, :type, :duree, :place, :nbr, :status, :refus, :comp)');
 
             $req->execute(array(
                 'name' => $name,
@@ -83,7 +83,7 @@
                 'status' => $status,
                 'refus' => $refus,
                 'comp' => $comp
-                ));*/
+                ));
 
         ?>
 		<div class = "messagevalid">
