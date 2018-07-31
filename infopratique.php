@@ -47,7 +47,7 @@
 								Distance : 235 Km</p>
 								<h4>Lille &#8211; Charleville-Mézières</h4>
 								<p>Autoroute A27 /E42 depuis Lille en direction de Bruxelles (Belgique) en passant par Tournai, Mons, Charleroi. Sur le Ring de Charleroi (R3) prendre la sortie N5 direction Philippeville / Reims.
-								Suivre l'autoroute A304 jusqu’à Charleville-Mézières.<br/>
+							<br/>
 								Durée du trajet : 2h<br/></p>
 							</div>
 							<div class="tab-pane" id="train">
@@ -59,15 +59,15 @@
 							<div class="tab-pane" id="avion">
 								<h4>Aéroport de Luxembourg-Findel&nbsp;</h4><p>1h35 de trajet en voiture</p>
 								<h4>Aéroport de Charleroi/Brussels South&nbsp;</h4><p>1 h 30 de trajet en voiture</p>
-								<h4>Aéroport de Bruxelles/Zaventem&nbsp;</h4><p>2 h 00 de trajet en voiture</p>
+								<h4>Aéroport de Bruxelles/Zaventem&nbsp;</h4><p>2 h 00 de trajet en voiture.Suivre l'autoroute A304 jusqu’à Charleroi.</p>
 								<h4>Aéroport de Paris/Charles de Gaulle&nbsp;</h4><p>2 h 20 de trajet en voiture et depuis la gare Charles de Gaulle TGV vers Champagne-Ardenne TGV en 30 min, puis correspondance pour Charleville-Mézières)</p>
 							</div>
 
 						</div>
 					</div>
-					<div class="col-lg-6">
 
-						<div class="carte"><img src="images/aeroport0.jpg" alt="carte" width="700px"></div>
+					<div class="col-lg-6">
+						<div class="carte"><img src="images/aeroport0.jpg" alt="carte" width="100%"></div>
 					</div>
 				</div>
 			</div>

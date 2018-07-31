@@ -1,9 +1,25 @@
-body
-
-.container{
-
-  width: 1500px!important;
+header a:hover{
+  color: #fff;
 }
+
+
+h4{
+  margin-top: 0px !important;
+}
+
+.listeprogr a{
+  font-size: 1.9rem!important;
+}
+
+.thumbnail{
+  border: hidden;
+  }
+
+  .evenement-nav-programme{
+  margin: 10px auto;
+  text-align: center;
+  }
+
 .listeprogr h3{
   font-size: 30px;
   margin-top: 20px;
@@ -13,6 +29,15 @@ body
   font-size: 20px;
   margin-left: 5px;
 }
+
+.carte a{
+color: #000;
+}
+
+.carte a:hover{
+text-decoration: none;
+}
+
 .maj{
   font-size: 39px;
 }
@@ -23,7 +48,7 @@ body
 
 .carte{
   margin-top: 3%;
-  width: 455px;
+  width: 330px;
 }
 
 .horaire_evenement{
@@ -35,21 +60,27 @@ body
 .infoplus_evenement a{
   text-decoration: none;
   color: #000;
-  margin: 0 auto;
+  margin-left:2px;
   width: 20%;
 }
 
+.stat a{
+  color: #fff!important;
+}
+
 /* couleur de fond  */
+
+
 .info-conf{
-  background: #e7b171;
+  background: #e7b171!important;
 }
 
 .info-expo{
-  background-color: #78a5c1;
+  background-color: #78a5c1!important;
 }
 
 .info-anim{
-  background-color: #a87cc9;
+  background-color: #a87cc9!important;
 }
 
 /* statut */
@@ -85,4 +116,30 @@ body
 
 .border-full{
   border-left: 5px solid #000;
+}
+
+.lien a{
+  padding: 10px;
+  border-radius: 2px;
+  margin-right: 10px;
+  color: #000;
+}
+
+.lien a:hover{
+  text-decoration: none;
+}
+
+.nav-pills>li.active>div.conf>a{
+  background: #e7b171!important;
+  color: #fff;
+}
+
+.nav-pills>li.active>div.expo>a{
+  background: #78a5c1!important;;
+  color: #fff;
+}
+
+.nav-pills>li.active>div.anim>a{
+  background: #a87cc9!important;;
+  color: #fff;
 }

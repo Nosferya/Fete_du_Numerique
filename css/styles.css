@@ -357,15 +357,15 @@ header a {
   height: auto !important;
 }
 
-.conf {
+.evenement .conf {
   background-color: #e7b171
 }
 
-.expo {
+.evenement .expo {
   background-color: #78a5c1;
 }
 
-.anim{
+.evenement .anim{
   background-color: #a87cc9;
 }
 

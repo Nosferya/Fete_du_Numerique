@@ -16,6 +16,10 @@ html, body {
   line-height: 20px;
 }
 
+header a:hover{
+  color:#fff;
+}
+
 .infopratique{
   margin:15% 8% 5% 8%;
 }
@@ -35,9 +39,13 @@ html, body {
 
 @media screen and (max-width :800px) {
   .infopratique {
-    margin-top:20%;
+    margin-top:25px;
     }
   .picto i{
    font-size: 25px;
+   }
+
+   .carte{
+     margin-top: 10%;
    }
 }
