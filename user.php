@@ -40,6 +40,7 @@ try {
 </head>
 
 <body>
+
 <?php
 		$id = $_POST['login'];
         $pass= $_POST['mdpi'];
@@ -94,6 +95,7 @@ try {
 				<!-- HEADER -->
 				<?php include("include/header.php") ?>
 				<!-- HEADER -->
+					<img class="mario" src="images/mario.jpg" alt="">
     <main>
 
 			<!-- LA BARRE SOCIALE -->
